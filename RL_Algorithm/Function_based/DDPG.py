@@ -107,16 +107,17 @@ class DDPG(BaseAlgorithm):
         return discrete_action
 
     def update(self):
-        if len(self.memory) < self.batch_size:
+        if len(self.memory) < self.batch_size * 5:
             return
 
         states, actions, rewards, next_states, dones = self.memory.sample()
 
-        states = torch.FloatTensor(states).to(self.device)
-        actions = torch.FloatTensor(actions).to(self.device).squeeze(-1)
-        rewards = torch.FloatTensor(rewards).unsqueeze(1).to(self.device)
-        next_states = torch.FloatTensor(next_states).to(self.device)
-        dones = torch.FloatTensor(dones).unsqueeze(1).to(self.device)
+        states = torch.tensor(np.array(states), dtype=torch.float32).to(self.device)
+        actions = torch.tensor(np.array(actions), dtype=torch.float32).to(self.device).squeeze(-1)
+        rewards = torch.tensor(np.array(rewards), dtype=torch.float32).unsqueeze(1).to(self.device)
+        next_states = torch.tensor(np.array(next_states), dtype=torch.float32).to(self.device)
+        dones = torch.tensor(np.array(dones), dtype=torch.float32).unsqueeze(1).to(self.device)
+
 
         actions = actions.unsqueeze(1)  # Ensure action shape is (batch, 1)
 
@@ -130,16 +131,20 @@ class DDPG(BaseAlgorithm):
 
         self.critic_opt.zero_grad()
         critic_loss.backward()
+        torch.nn.utils.clip_grad_norm_(self.critic.parameters(), max_norm=1.0)
         self.critic_opt.step()
 
         actor_loss = -self.critic(states, self.actor(states)).mean()
 
         self.actor_opt.zero_grad()
         actor_loss.backward()
+        torch.nn.utils.clip_grad_norm_(self.actor.parameters(), max_norm=1.0)
         self.actor_opt.step()
 
         self._soft_update(self.actor_target, self.actor)
         self._soft_update(self.critic_target, self.critic)
+        
+        return actor_loss.item(), critic_loss.item()
 
     def _soft_update(self, target, source):
         for target_param, param in zip(target.parameters(), source.parameters()):
@@ -148,15 +153,21 @@ class DDPG(BaseAlgorithm):
     def learn(self, env, max_steps=1000, noise_scale=0.1, noise_decay=0.995):
         state, _ = env.reset()
         episode_reward = 0
+        last_a_loss = None
+        last_c_loss = None
 
         for step in range(max_steps):
             action = self.select_action(state, noise=noise_scale)
-            next_state, reward, terminated, truncated, info = env.step(action)
+            next_state, reward, terminated, truncated, _ = env.step(action)
             done = terminated or truncated
 
             self.memory.add(state, [action], reward, next_state, done)
 
-            self.update()
+            result = self.update()
+            if result is not None:
+                a_loss, c_loss = result
+                last_a_loss = a_loss
+                last_c_loss = c_loss
 
             state = next_state
             episode_reward += reward
@@ -165,4 +176,5 @@ class DDPG(BaseAlgorithm):
             if done:
                 break
 
-        return episode_reward
+        return episode_reward, last_a_loss, last_c_loss
+

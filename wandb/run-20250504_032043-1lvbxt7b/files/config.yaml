@@ -1,0 +1,46 @@
+_wandb:
+    value:
+        cli_version: 0.19.10
+        m: []
+        python_version: 3.11.0
+        t:
+            "1":
+                - 1
+                - 55
+            "2":
+                - 1
+                - 55
+            "3":
+                - 13
+                - 16
+                - 23
+                - 55
+            "4": 3.11.0
+            "5": 0.19.10
+            "8":
+                - 3
+                - 5
+            "12": 0.19.10
+            "13": windows-amd64
+algorithm:
+    value: DDPG
+batch_size:
+    value: 64
+buffer_size:
+    value: 5000
+discount_factor:
+    value: 0.99
+hidden_dim:
+    value: 256
+learning_rate:
+    value: 0.001
+n_actions:
+    value: 1
+n_observations:
+    value: 12
+noise_decay:
+    value: 0.99
+noise_scale:
+    value: 0.05
+tau:
+    value: 0.005

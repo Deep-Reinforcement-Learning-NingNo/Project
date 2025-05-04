@@ -1,0 +1,1 @@
+{"avg_policy_loss":-0.006931474469602108,"avg_value_loss":0.4788182660192251,"reward":-8.7,"_runtime":69.9653607,"_timestamp":1.7463305883483293e+09,"policy_loss":-0.0069315009750425816,"avg_reward":-7.686000000000006,"_wandb":{"runtime":70},"episode":1929,"_step":1948,"value_loss":0.7651950120925903}

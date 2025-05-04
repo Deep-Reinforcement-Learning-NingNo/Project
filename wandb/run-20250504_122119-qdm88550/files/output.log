@@ -1,0 +1,1001 @@
+  3%|███▌                                                                                                            | 1597/50000 [01:19<38:01, 21.21it/s]
+[Episode 100] Avg Reward: 0.14 | Policy Loss: 0.4262 | Value Loss: 7.7616 | Max Step: 86
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep100.pt
+[Episode 200] Avg Reward: 4.39 | Policy Loss: -0.0436 | Value Loss: 1.5018 | Max Step: 97
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep200.pt
+[Episode 300] Avg Reward: 5.04 | Policy Loss: -0.0162 | Value Loss: 1.7050 | Max Step: 122
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep300.pt
+[Episode 400] Avg Reward: 4.85 | Policy Loss: 0.0006 | Value Loss: 1.3919 | Max Step: 122
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep400.pt
+[Episode 500] Avg Reward: 5.44 | Policy Loss: 0.0127 | Value Loss: 1.7769 | Max Step: 122
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep500.pt
+[Episode 600] Avg Reward: 5.58 | Policy Loss: -0.0330 | Value Loss: 1.7974 | Max Step: 122
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep600.pt
+[Episode 700] Avg Reward: 5.09 | Policy Loss: 0.0858 | Value Loss: 1.8284 | Max Step: 138
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep700.pt
+[Episode 800] Avg Reward: 5.99 | Policy Loss: -0.0644 | Value Loss: 2.4339 | Max Step: 137
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep800.pt
+[Episode 900] Avg Reward: 6.54 | Policy Loss: -0.0844 | Value Loss: 3.1251 | Max Step: 201
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep900.pt
+[Episode 1000] Avg Reward: 6.49 | Policy Loss: 0.0670 | Value Loss: 3.2840 | Max Step: 168
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1000.pt
+[Episode 1100] Avg Reward: 6.83 | Policy Loss: -0.0761 | Value Loss: 3.3092 | Max Step: 205
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1100.pt
+[Episode 1200] Avg Reward: 7.33 | Policy Loss: 0.0033 | Value Loss: 4.0658 | Max Step: 199
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1200.pt
+[Episode 1300] Avg Reward: 7.19 | Policy Loss: -0.0109 | Value Loss: 3.7064 | Max Step: 240
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1300.pt
+[Episode 1400] Avg Reward: 6.96 | Policy Loss: -0.1134 | Value Loss: 3.5229 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1400.pt
+[Episode 1500] Avg Reward: 6.64 | Policy Loss: 0.0532 | Value Loss: 2.9646 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1500.pt
+[Episode 1600] Avg Reward: 7.60 | Policy Loss: -0.1255 | Value Loss: 4.7502 | Max Step: 205
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1600.pt
+[Episode 1700] Avg Reward: 7.42 | Policy Loss: -0.0359 | Value Loss: 3.9494 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1700.pt
+[Episode 1800] Avg Reward: 7.19 | Policy Loss: 0.0243 | Value Loss: 3.7600 | Max Step: 166
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1800.pt
+[Episode 1900] Avg Reward: 8.12 | Policy Loss: -0.0533 | Value Loss: 4.4962 | Max Step: 203
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1900.pt
+[Episode 2000] Avg Reward: 7.70 | Policy Loss: -0.0272 | Value Loss: 4.7042 | Max Step: 291
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2000.pt
+[Episode 2100] Avg Reward: 7.75 | Policy Loss: 0.0274 | Value Loss: 4.1994 | Max Step: 278
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2100.pt
+[Episode 2200] Avg Reward: 6.88 | Policy Loss: -0.0411 | Value Loss: 3.0950 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2200.pt
+[Episode 2300] Avg Reward: 7.32 | Policy Loss: 0.0095 | Value Loss: 2.8810 | Max Step: 199
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2300.pt
+[Episode 2400] Avg Reward: 7.41 | Policy Loss: -0.0316 | Value Loss: 2.9287 | Max Step: 122
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2400.pt
+[Episode 2500] Avg Reward: 7.42 | Policy Loss: 0.0162 | Value Loss: 2.7270 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2500.pt
+[Episode 2600] Avg Reward: 7.56 | Policy Loss: -0.0788 | Value Loss: 3.4746 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2600.pt
+[Episode 2700] Avg Reward: 7.50 | Policy Loss: 0.0528 | Value Loss: 3.4982 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2700.pt
+[Episode 2800] Avg Reward: 8.87 | Policy Loss: -0.1020 | Value Loss: 3.8821 | Max Step: 218
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2800.pt
+[Episode 2900] Avg Reward: 7.70 | Policy Loss: 0.0879 | Value Loss: 3.2928 | Max Step: 171
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2900.pt
+[Episode 3000] Avg Reward: 8.45 | Policy Loss: -0.0240 | Value Loss: 4.7802 | Max Step: 249
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3000.pt
+[Episode 3100] Avg Reward: 8.82 | Policy Loss: -0.1136 | Value Loss: 4.7656 | Max Step: 239
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3100.pt
+[Episode 3200] Avg Reward: 8.71 | Policy Loss: 0.0460 | Value Loss: 4.3530 | Max Step: 206
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3200.pt
+[Episode 3300] Avg Reward: 8.06 | Policy Loss: -0.0896 | Value Loss: 4.5276 | Max Step: 430
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3300.pt
+[Episode 3400] Avg Reward: 9.05 | Policy Loss: -0.0825 | Value Loss: 4.7132 | Max Step: 202
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3400.pt
+[Episode 3500] Avg Reward: 7.93 | Policy Loss: -0.0299 | Value Loss: 3.7647 | Max Step: 163
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3500.pt
+[Episode 3600] Avg Reward: 9.57 | Policy Loss: -0.0860 | Value Loss: 4.4925 | Max Step: 199
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3600.pt
+[Episode 3700] Avg Reward: 9.01 | Policy Loss: 0.0989 | Value Loss: 4.3508 | Max Step: 277
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3700.pt
+[Episode 3800] Avg Reward: 10.58 | Policy Loss: -0.0719 | Value Loss: 6.7545 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3800.pt
+[Episode 3900] Avg Reward: 10.33 | Policy Loss: -0.0638 | Value Loss: 5.9450 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3900.pt
+[Episode 4000] Avg Reward: 10.55 | Policy Loss: -0.1167 | Value Loss: 5.5154 | Max Step: 211
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4000.pt
+[Episode 4100] Avg Reward: 9.63 | Policy Loss: 0.0522 | Value Loss: 4.9005 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4100.pt
+[Episode 4200] Avg Reward: 10.02 | Policy Loss: -0.0724 | Value Loss: 5.5330 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4200.pt
+[Episode 4300] Avg Reward: 9.42 | Policy Loss: -0.0512 | Value Loss: 3.8118 | Max Step: 211
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4300.pt
+[Episode 4400] Avg Reward: 9.73 | Policy Loss: 0.0173 | Value Loss: 4.6649 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4400.pt
+[Episode 4500] Avg Reward: 9.25 | Policy Loss: 0.0364 | Value Loss: 4.0378 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4500.pt
+[Episode 4600] Avg Reward: 9.29 | Policy Loss: -0.0252 | Value Loss: 5.0055 | Max Step: 204
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4600.pt
+[Episode 4700] Avg Reward: 9.62 | Policy Loss: -0.0164 | Value Loss: 4.9448 | Max Step: 199
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4700.pt
+[Episode 4800] Avg Reward: 10.48 | Policy Loss: -0.0996 | Value Loss: 4.7943 | Max Step: 281
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4800.pt
+[Episode 4900] Avg Reward: 9.52 | Policy Loss: 0.0820 | Value Loss: 5.2433 | Max Step: 204
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep4900.pt
+[Episode 5000] Avg Reward: 9.36 | Policy Loss: -0.0307 | Value Loss: 4.2875 | Max Step: 199
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5000.pt
+[Episode 5100] Avg Reward: 10.66 | Policy Loss: -0.0817 | Value Loss: 5.1048 | Max Step: 241
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5100.pt
+[Episode 5200] Avg Reward: 10.79 | Policy Loss: 0.0494 | Value Loss: 4.2070 | Max Step: 203
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5200.pt
+[Episode 5300] Avg Reward: 10.07 | Policy Loss: -0.0609 | Value Loss: 4.4722 | Max Step: 238
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5300.pt
+[Episode 5400] Avg Reward: 9.99 | Policy Loss: -0.0606 | Value Loss: 4.0026 | Max Step: 183
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5400.pt
+[Episode 5500] Avg Reward: 9.97 | Policy Loss: -0.0073 | Value Loss: 3.6537 | Max Step: 181
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5500.pt
+[Episode 5600] Avg Reward: 10.22 | Policy Loss: -0.0345 | Value Loss: 3.7256 | Max Step: 166
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5600.pt
+[Episode 5700] Avg Reward: 10.34 | Policy Loss: -0.0271 | Value Loss: 4.3345 | Max Step: 183
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5700.pt
+[Episode 5800] Avg Reward: 10.50 | Policy Loss: -0.0511 | Value Loss: 4.5709 | Max Step: 239
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5800.pt
+[Episode 5900] Avg Reward: 10.90 | Policy Loss: -0.0677 | Value Loss: 4.3333 | Max Step: 201
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep5900.pt
+[Episode 6000] Avg Reward: 11.11 | Policy Loss: 0.0252 | Value Loss: 4.5366 | Max Step: 204
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6000.pt
+[Episode 6100] Avg Reward: 9.65 | Policy Loss: 0.0510 | Value Loss: 3.7363 | Max Step: 182
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6100.pt
+[Episode 6200] Avg Reward: 10.73 | Policy Loss: -0.0888 | Value Loss: 4.4785 | Max Step: 237
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6200.pt
+[Episode 6300] Avg Reward: 10.84 | Policy Loss: -0.0687 | Value Loss: 3.9345 | Max Step: 203
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6300.pt
+[Episode 6400] Avg Reward: 10.24 | Policy Loss: 0.0493 | Value Loss: 3.7830 | Max Step: 183
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6400.pt
+[Episode 6500] Avg Reward: 11.03 | Policy Loss: -0.0617 | Value Loss: 3.7839 | Max Step: 202
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6500.pt
+[Episode 6600] Avg Reward: 9.99 | Policy Loss: -0.0094 | Value Loss: 2.8390 | Max Step: 180
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6600.pt
+[Episode 6700] Avg Reward: 10.70 | Policy Loss: -0.0083 | Value Loss: 3.2994 | Max Step: 181
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6700.pt
+[Episode 6800] Avg Reward: 10.90 | Policy Loss: -0.0581 | Value Loss: 3.7767 | Max Step: 178
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6800.pt
+[Episode 6900] Avg Reward: 10.53 | Policy Loss: 0.0244 | Value Loss: 3.5700 | Max Step: 199
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep6900.pt
+[Episode 7000] Avg Reward: 9.97 | Policy Loss: 0.0331 | Value Loss: 3.3948 | Max Step: 183
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7000.pt
+[Episode 7100] Avg Reward: 10.65 | Policy Loss: -0.1255 | Value Loss: 3.2743 | Max Step: 168
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7100.pt
+[Episode 7200] Avg Reward: 9.95 | Policy Loss: 0.0623 | Value Loss: 2.8631 | Max Step: 165
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7200.pt
+[Episode 7300] Avg Reward: 9.98 | Policy Loss: -0.0513 | Value Loss: 2.9330 | Max Step: 165
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7300.pt
+[Episode 7400] Avg Reward: 10.44 | Policy Loss: -0.0140 | Value Loss: 3.5351 | Max Step: 180
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7400.pt
+[Episode 7500] Avg Reward: 10.34 | Policy Loss: 0.0693 | Value Loss: 3.2263 | Max Step: 180
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7500.pt
+[Episode 7600] Avg Reward: 9.75 | Policy Loss: -0.1041 | Value Loss: 3.0171 | Max Step: 204
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7600.pt
+[Episode 7700] Avg Reward: 11.40 | Policy Loss: 0.0085 | Value Loss: 3.5841 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7700.pt
+[Episode 7800] Avg Reward: 10.98 | Policy Loss: 0.0460 | Value Loss: 4.3085 | Max Step: 241
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7800.pt
+[Episode 7900] Avg Reward: 11.13 | Policy Loss: -0.0805 | Value Loss: 4.5619 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep7900.pt
+[Episode 8000] Avg Reward: 10.89 | Policy Loss: 0.0697 | Value Loss: 4.7443 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8000.pt
+[Episode 8100] Avg Reward: 10.86 | Policy Loss: -0.0533 | Value Loss: 4.4418 | Max Step: 316
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8100.pt
+[Episode 8200] Avg Reward: 12.37 | Policy Loss: -0.0361 | Value Loss: 5.3511 | Max Step: 389
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8200.pt
+[Episode 8300] Avg Reward: 10.97 | Policy Loss: 0.0127 | Value Loss: 4.8144 | Max Step: 208
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8300.pt
+[Episode 8400] Avg Reward: 11.91 | Policy Loss: -0.0546 | Value Loss: 5.2964 | Max Step: 282
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8400.pt
+[Episode 8500] Avg Reward: 12.30 | Policy Loss: -0.0041 | Value Loss: 5.3162 | Max Step: 395
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8500.pt
+[Episode 8600] Avg Reward: 11.48 | Policy Loss: -0.0264 | Value Loss: 5.4318 | Max Step: 316
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8600.pt
+[Episode 8700] Avg Reward: 12.97 | Policy Loss: -0.0530 | Value Loss: 6.1940 | Max Step: 321
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8700.pt
+[Episode 8800] Avg Reward: 10.30 | Policy Loss: -0.0166 | Value Loss: 3.1932 | Max Step: 183
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8800.pt
+[Episode 8900] Avg Reward: 11.60 | Policy Loss: 0.0057 | Value Loss: 4.8779 | Max Step: 355
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep8900.pt
+[Episode 9000] Avg Reward: 11.25 | Policy Loss: 0.0136 | Value Loss: 3.8412 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9000.pt
+[Episode 9100] Avg Reward: 11.57 | Policy Loss: -0.0672 | Value Loss: 4.7628 | Max Step: 432
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9100.pt
+[Episode 9200] Avg Reward: 11.75 | Policy Loss: -0.0138 | Value Loss: 5.1965 | Max Step: 278
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9200.pt
+[Episode 9300] Avg Reward: 11.78 | Policy Loss: -0.0873 | Value Loss: 5.0705 | Max Step: 348
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9300.pt
+[Episode 9400] Avg Reward: 13.20 | Policy Loss: -0.0097 | Value Loss: 6.6845 | Max Step: 462
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9400.pt
+[Episode 9500] Avg Reward: 11.35 | Policy Loss: 0.0432 | Value Loss: 5.1648 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9500.pt
+[Episode 9600] Avg Reward: 10.34 | Policy Loss: 0.0714 | Value Loss: 4.1074 | Max Step: 291
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9600.pt
+[Episode 9700] Avg Reward: 10.45 | Policy Loss: 0.0210 | Value Loss: 3.4512 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9700.pt
+[Episode 9800] Avg Reward: 12.77 | Policy Loss: -0.1252 | Value Loss: 5.7750 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9800.pt
+[Episode 9900] Avg Reward: 11.94 | Policy Loss: -0.0450 | Value Loss: 4.4651 | Max Step: 313
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep9900.pt
+[Episode 10000] Avg Reward: 12.00 | Policy Loss: 0.0822 | Value Loss: 5.1054 | Max Step: 284
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10000.pt
+[Episode 10100] Avg Reward: 12.02 | Policy Loss: -0.0772 | Value Loss: 4.9906 | Max Step: 280
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10100.pt
+[Episode 10200] Avg Reward: 11.02 | Policy Loss: 0.0110 | Value Loss: 3.8929 | Max Step: 244
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10200.pt
+[Episode 10300] Avg Reward: 11.36 | Policy Loss: -0.0087 | Value Loss: 3.6964 | Max Step: 281
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10300.pt
+[Episode 10400] Avg Reward: 12.37 | Policy Loss: -0.0963 | Value Loss: 5.0051 | Max Step: 389
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10400.pt
+[Episode 10500] Avg Reward: 11.22 | Policy Loss: 0.0046 | Value Loss: 3.3735 | Max Step: 243
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10500.pt
+[Episode 10600] Avg Reward: 11.53 | Policy Loss: -0.0304 | Value Loss: 3.9382 | Max Step: 241
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10600.pt
+[Episode 10700] Avg Reward: 13.26 | Policy Loss: -0.0400 | Value Loss: 5.5336 | Max Step: 316
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10700.pt
+[Episode 10800] Avg Reward: 12.33 | Policy Loss: 0.0416 | Value Loss: 5.1443 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10800.pt
+[Episode 10900] Avg Reward: 11.55 | Policy Loss: -0.0459 | Value Loss: 4.6745 | Max Step: 283
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep10900.pt
+[Episode 11000] Avg Reward: 12.80 | Policy Loss: -0.0322 | Value Loss: 5.6291 | Max Step: 391
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11000.pt
+[Episode 11100] Avg Reward: 12.47 | Policy Loss: -0.0044 | Value Loss: 4.8051 | Max Step: 357
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11100.pt
+[Episode 11200] Avg Reward: 11.93 | Policy Loss: -0.0122 | Value Loss: 5.1253 | Max Step: 283
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11200.pt
+[Episode 11300] Avg Reward: 11.43 | Policy Loss: -0.0559 | Value Loss: 4.2560 | Max Step: 239
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11300.pt
+[Episode 11400] Avg Reward: 12.78 | Policy Loss: -0.0625 | Value Loss: 5.6731 | Max Step: 348
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11400.pt
+[Episode 11500] Avg Reward: 13.03 | Policy Loss: -0.0306 | Value Loss: 5.9664 | Max Step: 315
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11500.pt
+[Episode 11600] Avg Reward: 13.32 | Policy Loss: -0.0442 | Value Loss: 5.5151 | Max Step: 389
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11600.pt
+[Episode 11700] Avg Reward: 12.39 | Policy Loss: 0.0438 | Value Loss: 5.3526 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11700.pt
+[Episode 11800] Avg Reward: 11.73 | Policy Loss: 0.0041 | Value Loss: 6.4198 | Max Step: 354
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11800.pt
+[Episode 11900] Avg Reward: 11.44 | Policy Loss: -0.0603 | Value Loss: 4.6291 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep11900.pt
+[Episode 12000] Avg Reward: 12.28 | Policy Loss: -0.0064 | Value Loss: 5.4457 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12000.pt
+[Episode 12100] Avg Reward: 12.97 | Policy Loss: -0.0515 | Value Loss: 5.3200 | Max Step: 278
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12100.pt
+[Episode 12200] Avg Reward: 10.75 | Policy Loss: 0.0120 | Value Loss: 5.0553 | Max Step: 394
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12200.pt
+[Episode 12300] Avg Reward: 12.15 | Policy Loss: 0.0179 | Value Loss: 5.7425 | Max Step: 359
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12300.pt
+[Episode 12400] Avg Reward: 12.52 | Policy Loss: -0.0637 | Value Loss: 5.0244 | Max Step: 239
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12400.pt
+[Episode 12500] Avg Reward: 12.52 | Policy Loss: 0.0108 | Value Loss: 5.2296 | Max Step: 283
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12500.pt
+[Episode 12600] Avg Reward: 11.05 | Policy Loss: 0.0338 | Value Loss: 5.0963 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12600.pt
+[Episode 12700] Avg Reward: 12.60 | Policy Loss: -0.1050 | Value Loss: 5.8325 | Max Step: 464
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12700.pt
+[Episode 12800] Avg Reward: 13.05 | Policy Loss: -0.0436 | Value Loss: 5.1551 | Max Step: 389
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12800.pt
+[Episode 12900] Avg Reward: 10.34 | Policy Loss: 0.0595 | Value Loss: 3.4972 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep12900.pt
+[Episode 13000] Avg Reward: 11.67 | Policy Loss: -0.0578 | Value Loss: 3.9897 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13000.pt
+[Episode 13100] Avg Reward: 10.26 | Policy Loss: 0.0053 | Value Loss: 3.7045 | Max Step: 241
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13100.pt
+[Episode 13200] Avg Reward: 11.72 | Policy Loss: -0.0846 | Value Loss: 3.6980 | Max Step: 277
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13200.pt
+[Episode 13300] Avg Reward: 11.57 | Policy Loss: 0.0015 | Value Loss: 4.6212 | Max Step: 318
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13300.pt
+[Episode 13400] Avg Reward: 13.75 | Policy Loss: -0.0539 | Value Loss: 5.4226 | Max Step: 505
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13400.pt
+[Episode 13500] Avg Reward: 11.90 | Policy Loss: 0.0093 | Value Loss: 4.4648 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13500.pt
+[Episode 13600] Avg Reward: 11.82 | Policy Loss: -0.0393 | Value Loss: 4.9290 | Max Step: 278
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13600.pt
+[Episode 13700] Avg Reward: 11.53 | Policy Loss: 0.0508 | Value Loss: 4.2854 | Max Step: 279
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13700.pt
+[Episode 13800] Avg Reward: 10.92 | Policy Loss: -0.1198 | Value Loss: 3.5121 | Max Step: 248
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13800.pt
+[Episode 13900] Avg Reward: 12.41 | Policy Loss: -0.0236 | Value Loss: 4.2119 | Max Step: 318
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep13900.pt
+[Episode 14000] Avg Reward: 12.60 | Policy Loss: 0.0104 | Value Loss: 4.8769 | Max Step: 351
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14000.pt
+[Episode 14100] Avg Reward: 12.46 | Policy Loss: -0.0602 | Value Loss: 3.9561 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14100.pt
+[Episode 14200] Avg Reward: 12.00 | Policy Loss: -0.0208 | Value Loss: 4.0151 | Max Step: 240
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14200.pt
+[Episode 14300] Avg Reward: 11.49 | Policy Loss: 0.0428 | Value Loss: 4.1216 | Max Step: 242
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14300.pt
+[Episode 14400] Avg Reward: 11.95 | Policy Loss: -0.0300 | Value Loss: 3.4687 | Max Step: 237
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14400.pt
+[Episode 14500] Avg Reward: 12.96 | Policy Loss: -0.0349 | Value Loss: 5.3955 | Max Step: 353
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14500.pt
+[Episode 14600] Avg Reward: 12.42 | Policy Loss: -0.0298 | Value Loss: 4.3655 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14600.pt
+[Episode 14700] Avg Reward: 11.98 | Policy Loss: 0.0118 | Value Loss: 4.0307 | Max Step: 279
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14700.pt
+[Episode 14800] Avg Reward: 13.52 | Policy Loss: -0.0751 | Value Loss: 5.7516 | Max Step: 426
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14800.pt
+[Episode 14900] Avg Reward: 13.10 | Policy Loss: -0.0043 | Value Loss: 5.2167 | Max Step: 468
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep14900.pt
+[Episode 15000] Avg Reward: 12.08 | Policy Loss: 0.0692 | Value Loss: 5.0794 | Max Step: 314
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15000.pt
+[Episode 15100] Avg Reward: 13.34 | Policy Loss: -0.0899 | Value Loss: 5.4688 | Max Step: 317
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15100.pt
+[Episode 15200] Avg Reward: 12.70 | Policy Loss: -0.0527 | Value Loss: 4.7767 | Max Step: 296
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15200.pt
+[Episode 15300] Avg Reward: 12.86 | Policy Loss: 0.0259 | Value Loss: 5.2094 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15300.pt
+[Episode 15400] Avg Reward: 14.13 | Policy Loss: -0.0413 | Value Loss: 5.2384 | Max Step: 348
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15400.pt
+[Episode 15500] Avg Reward: 13.81 | Policy Loss: -0.1174 | Value Loss: 5.9165 | Max Step: 395
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15500.pt
+[Episode 15600] Avg Reward: 12.70 | Policy Loss: 0.1007 | Value Loss: 4.8790 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15600.pt
+[Episode 15700] Avg Reward: 12.94 | Policy Loss: -0.0318 | Value Loss: 5.5625 | Max Step: 355
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15700.pt
+[Episode 15800] Avg Reward: 11.23 | Policy Loss: -0.0088 | Value Loss: 3.8374 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15800.pt
+[Episode 15900] Avg Reward: 14.07 | Policy Loss: -0.1353 | Value Loss: 4.7076 | Max Step: 502
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep15900.pt
+[Episode 16000] Avg Reward: 12.53 | Policy Loss: -0.0220 | Value Loss: 4.3597 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16000.pt
+[Episode 16100] Avg Reward: 14.33 | Policy Loss: 0.0242 | Value Loss: 6.0730 | Max Step: 428
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16100.pt
+[Episode 16200] Avg Reward: 14.62 | Policy Loss: -0.0558 | Value Loss: 6.4236 | Max Step: 464
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16200.pt
+[Episode 16300] Avg Reward: 14.12 | Policy Loss: 0.0018 | Value Loss: 6.4690 | Max Step: 359
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16300.pt
+[Episode 16400] Avg Reward: 13.37 | Policy Loss: -0.0321 | Value Loss: 4.7434 | Max Step: 282
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16400.pt
+[Episode 16500] Avg Reward: 12.57 | Policy Loss: 0.0100 | Value Loss: 4.3030 | Max Step: 290
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16500.pt
+[Episode 16600] Avg Reward: 13.38 | Policy Loss: -0.0674 | Value Loss: 5.2510 | Max Step: 694
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16600.pt
+[Episode 16700] Avg Reward: 14.30 | Policy Loss: -0.0481 | Value Loss: 5.0652 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16700.pt
+[Episode 16800] Avg Reward: 12.51 | Policy Loss: 0.0805 | Value Loss: 5.0555 | Max Step: 319
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16800.pt
+[Episode 16900] Avg Reward: 13.48 | Policy Loss: -0.0609 | Value Loss: 7.3088 | Max Step: 393
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep16900.pt
+[Episode 17000] Avg Reward: 12.33 | Policy Loss: -0.0343 | Value Loss: 4.0294 | Max Step: 296
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17000.pt
+[Episode 17100] Avg Reward: 14.75 | Policy Loss: -0.0952 | Value Loss: 6.6504 | Max Step: 434
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17100.pt
+[Episode 17200] Avg Reward: 14.93 | Policy Loss: 0.0030 | Value Loss: 6.2617 | Max Step: 504
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17200.pt
+[Episode 17300] Avg Reward: 15.83 | Policy Loss: 0.0172 | Value Loss: 6.2221 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17300.pt
+[Episode 17400] Avg Reward: 12.42 | Policy Loss: -0.0278 | Value Loss: 4.3028 | Max Step: 348
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17400.pt
+[Episode 17500] Avg Reward: 12.07 | Policy Loss: 0.0228 | Value Loss: 4.3283 | Max Step: 392
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17500.pt
+[Episode 17600] Avg Reward: 9.56 | Policy Loss: 0.0438 | Value Loss: 3.7903 | Max Step: 200
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17600.pt
+[Episode 17700] Avg Reward: 10.43 | Policy Loss: -0.0970 | Value Loss: 2.9154 | Max Step: 236
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17700.pt
+[Episode 17800] Avg Reward: 11.92 | Policy Loss: -0.0295 | Value Loss: 5.2253 | Max Step: 284
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17800.pt
+[Episode 17900] Avg Reward: 12.59 | Policy Loss: -0.0296 | Value Loss: 4.5872 | Max Step: 356
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep17900.pt
+[Episode 18000] Avg Reward: 13.05 | Policy Loss: -0.0067 | Value Loss: 4.6782 | Max Step: 283
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18000.pt
+[Episode 18100] Avg Reward: 12.18 | Policy Loss: -0.0234 | Value Loss: 3.8404 | Max Step: 245
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18100.pt
+[Episode 18200] Avg Reward: 12.31 | Policy Loss: -0.0296 | Value Loss: 4.0202 | Max Step: 315
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18200.pt
+[Episode 18300] Avg Reward: 11.56 | Policy Loss: 0.0052 | Value Loss: 3.6116 | Max Step: 209
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18300.pt
+[Episode 18400] Avg Reward: 12.74 | Policy Loss: -0.0322 | Value Loss: 3.8705 | Max Step: 326
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18400.pt
+[Episode 18500] Avg Reward: 13.34 | Policy Loss: -0.0566 | Value Loss: 4.6873 | Max Step: 281
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18500.pt
+[Episode 18600] Avg Reward: 14.42 | Policy Loss: -0.0400 | Value Loss: 6.9293 | Max Step: 429
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18600.pt
+[Episode 18700] Avg Reward: 12.89 | Policy Loss: 0.0441 | Value Loss: 5.3081 | Max Step: 431
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18700.pt
+[Episode 18800] Avg Reward: 12.02 | Policy Loss: -0.1253 | Value Loss: 4.9292 | Max Step: 314
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18800.pt
+[Episode 18900] Avg Reward: 14.84 | Policy Loss: 0.0233 | Value Loss: 5.9658 | Max Step: 434
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep18900.pt
+[Episode 19000] Avg Reward: 13.14 | Policy Loss: -0.0195 | Value Loss: 4.6368 | Max Step: 290
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19000.pt
+[Episode 19100] Avg Reward: 13.58 | Policy Loss: 0.0021 | Value Loss: 6.4250 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19100.pt
+[Episode 19200] Avg Reward: 14.94 | Policy Loss: -0.0604 | Value Loss: 6.3434 | Max Step: 427
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19200.pt
+[Episode 19300] Avg Reward: 13.40 | Policy Loss: -0.0198 | Value Loss: 5.4070 | Max Step: 348
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19300.pt
+[Episode 19400] Avg Reward: 14.85 | Policy Loss: -0.0754 | Value Loss: 5.1619 | Max Step: 398
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19400.pt
+[Episode 19500] Avg Reward: 14.63 | Policy Loss: -0.0171 | Value Loss: 5.6271 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19500.pt
+[Episode 19600] Avg Reward: 14.42 | Policy Loss: -0.0055 | Value Loss: 5.9556 | Max Step: 431
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19600.pt
+[Episode 19700] Avg Reward: 14.70 | Policy Loss: -0.0610 | Value Loss: 6.5114 | Max Step: 427
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19700.pt
+[Episode 19800] Avg Reward: 14.84 | Policy Loss: -0.0988 | Value Loss: 6.5074 | Max Step: 391
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19800.pt
+[Episode 19900] Avg Reward: 14.33 | Policy Loss: 0.0651 | Value Loss: 5.0855 | Max Step: 394
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep19900.pt
+[Episode 20000] Avg Reward: 16.43 | Policy Loss: -0.0454 | Value Loss: 6.4490 | Max Step: 436
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20000.pt
+[Episode 20100] Avg Reward: 14.27 | Policy Loss: 0.0298 | Value Loss: 5.6607 | Max Step: 435
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20100.pt
+[Episode 20200] Avg Reward: 15.72 | Policy Loss: -0.0467 | Value Loss: 6.4146 | Max Step: 389
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20200.pt
+[Episode 20300] Avg Reward: 14.47 | Policy Loss: 0.0487 | Value Loss: 6.5843 | Max Step: 502
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20300.pt
+[Episode 20400] Avg Reward: 14.57 | Policy Loss: -0.1147 | Value Loss: 5.5384 | Max Step: 426
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20400.pt
+[Episode 20500] Avg Reward: 15.56 | Policy Loss: 0.0397 | Value Loss: 6.3414 | Max Step: 461
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20500.pt
+[Episode 20600] Avg Reward: 14.60 | Policy Loss: -0.0920 | Value Loss: 6.1716 | Max Step: 391
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20600.pt
+[Episode 20700] Avg Reward: 16.24 | Policy Loss: 0.0093 | Value Loss: 6.9331 | Max Step: 390
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20700.pt
+[Episode 20800] Avg Reward: 16.17 | Policy Loss: -0.0683 | Value Loss: 6.4246 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20800.pt
+[Episode 20900] Avg Reward: 13.31 | Policy Loss: -0.0091 | Value Loss: 5.0304 | Max Step: 391
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep20900.pt
+[Episode 21000] Avg Reward: 14.41 | Policy Loss: 0.0115 | Value Loss: 6.0898 | Max Step: 392
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21000.pt
+[Episode 21100] Avg Reward: 17.21 | Policy Loss: -0.1295 | Value Loss: 6.7621 | Max Step: 507
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21100.pt
+[Episode 21200] Avg Reward: 13.48 | Policy Loss: 0.0319 | Value Loss: 4.7942 | Max Step: 368
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21200.pt
+[Episode 21300] Avg Reward: 14.17 | Policy Loss: 0.0327 | Value Loss: 6.1039 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21300.pt
+[Episode 21400] Avg Reward: 16.46 | Policy Loss: -0.0780 | Value Loss: 8.7245 | Max Step: 574
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21400.pt
+[Episode 21500] Avg Reward: 19.86 | Policy Loss: -0.0392 | Value Loss: 9.2567 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21500.pt
+[Episode 21600] Avg Reward: 17.72 | Policy Loss: 0.0028 | Value Loss: 8.6394 | Max Step: 651
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21600.pt
+[Episode 21700] Avg Reward: 17.41 | Policy Loss: -0.1541 | Value Loss: 8.5624 | Max Step: 538
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21700.pt
+[Episode 21800] Avg Reward: 21.93 | Policy Loss: -0.0251 | Value Loss: 9.3847 | Max Step: 764
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21800.pt
+[Episode 21900] Avg Reward: 21.46 | Policy Loss: 0.0303 | Value Loss: 9.1709 | Max Step: 615
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep21900.pt
+[Episode 22000] Avg Reward: 20.29 | Policy Loss: -0.0496 | Value Loss: 8.3529 | Max Step: 584
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22000.pt
+[Episode 22100] Avg Reward: 16.69 | Policy Loss: 0.1620 | Value Loss: 8.4667 | Max Step: 511
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22100.pt
+[Episode 22200] Avg Reward: 14.98 | Policy Loss: -0.0672 | Value Loss: 7.3425 | Max Step: 471
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22200.pt
+[Episode 22300] Avg Reward: 19.37 | Policy Loss: -0.1026 | Value Loss: 8.8643 | Max Step: 502
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22300.pt
+[Episode 22400] Avg Reward: 16.61 | Policy Loss: 0.0943 | Value Loss: 7.6880 | Max Step: 575
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22400.pt
+[Episode 22500] Avg Reward: 16.12 | Policy Loss: -0.1022 | Value Loss: 7.1766 | Max Step: 392
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22500.pt
+[Episode 22600] Avg Reward: 20.54 | Policy Loss: -0.0492 | Value Loss: 9.4179 | Max Step: 746
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22600.pt
+[Episode 22700] Avg Reward: 20.69 | Policy Loss: -0.0075 | Value Loss: 9.1518 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22700.pt
+[Episode 22800] Avg Reward: 18.83 | Policy Loss: -0.0689 | Value Loss: 6.3735 | Max Step: 619
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22800.pt
+[Episode 22900] Avg Reward: 22.45 | Policy Loss: -0.0723 | Value Loss: 8.5822 | Max Step: 615
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep22900.pt
+[Episode 23000] Avg Reward: 18.66 | Policy Loss: 0.0102 | Value Loss: 8.8595 | Max Step: 917
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23000.pt
+[Episode 23100] Avg Reward: 25.90 | Policy Loss: -0.0240 | Value Loss: 11.6039 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23100.pt
+[Episode 23200] Avg Reward: 20.28 | Policy Loss: 0.0922 | Value Loss: 9.2666 | Max Step: 546
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23200.pt
+[Episode 23300] Avg Reward: 22.82 | Policy Loss: -0.1434 | Value Loss: 10.6670 | Max Step: 657
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23300.pt
+[Episode 23400] Avg Reward: 20.16 | Policy Loss: -0.0543 | Value Loss: 9.3350 | Max Step: 699
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23400.pt
+[Episode 23500] Avg Reward: 8.39 | Policy Loss: 0.1989 | Value Loss: 7.1934 | Max Step: 541
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23500.pt
+[Episode 23600] Avg Reward: 4.91 | Policy Loss: 0.0053 | Value Loss: 5.6234 | Max Step: 538
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23600.pt
+[Episode 23700] Avg Reward: 6.61 | Policy Loss: -0.0483 | Value Loss: 6.0169 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23700.pt
+[Episode 23800] Avg Reward: 2.12 | Policy Loss: 0.2692 | Value Loss: 8.8137 | Max Step: 126
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23800.pt
+[Episode 23900] Avg Reward: 3.16 | Policy Loss: -0.2249 | Value Loss: 8.3882 | Max Step: 168
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep23900.pt
+[Episode 24000] Avg Reward: 7.65 | Policy Loss: -0.0513 | Value Loss: 3.9038 | Max Step: 238
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24000.pt
+[Episode 24100] Avg Reward: 7.94 | Policy Loss: 0.0526 | Value Loss: 6.6605 | Max Step: 276
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24100.pt
+[Episode 24200] Avg Reward: 6.65 | Policy Loss: -0.1204 | Value Loss: 6.0427 | Max Step: 211
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24200.pt
+[Episode 24300] Avg Reward: 7.76 | Policy Loss: 0.0240 | Value Loss: 7.9717 | Max Step: 244
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24300.pt
+[Episode 24400] Avg Reward: 9.01 | Policy Loss: -0.0866 | Value Loss: 7.7965 | Max Step: 235
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24400.pt
+[Episode 24500] Avg Reward: 7.82 | Policy Loss: -0.0808 | Value Loss: 6.5410 | Max Step: 205
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24500.pt
+[Episode 24600] Avg Reward: 8.21 | Policy Loss: -0.0004 | Value Loss: 5.3737 | Max Step: 312
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24600.pt
+[Episode 24700] Avg Reward: 7.84 | Policy Loss: 0.0372 | Value Loss: 3.5903 | Max Step: 204
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24700.pt
+[Episode 24800] Avg Reward: 9.17 | Policy Loss: -0.1187 | Value Loss: 7.2495 | Max Step: 425
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24800.pt
+[Episode 24900] Avg Reward: 11.57 | Policy Loss: -0.1062 | Value Loss: 5.6595 | Max Step: 462
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep24900.pt
+[Episode 25000] Avg Reward: 13.69 | Policy Loss: -0.0884 | Value Loss: 7.7670 | Max Step: 514
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25000.pt
+[Episode 25100] Avg Reward: 13.21 | Policy Loss: -0.0029 | Value Loss: 6.3892 | Max Step: 538
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25100.pt
+[Episode 25200] Avg Reward: 12.14 | Policy Loss: -0.0678 | Value Loss: 8.8353 | Max Step: 651
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25200.pt
+[Episode 25300] Avg Reward: 16.29 | Policy Loss: -0.0249 | Value Loss: 8.3002 | Max Step: 652
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25300.pt
+[Episode 25400] Avg Reward: 16.26 | Policy Loss: -0.0370 | Value Loss: 7.5787 | Max Step: 652
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25400.pt
+[Episode 25500] Avg Reward: 17.68 | Policy Loss: 0.0237 | Value Loss: 10.1660 | Max Step: 689
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25500.pt
+[Episode 25600] Avg Reward: 11.40 | Policy Loss: 0.0811 | Value Loss: 7.7598 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25600.pt
+[Episode 25700] Avg Reward: 11.34 | Policy Loss: -0.0772 | Value Loss: 6.5471 | Max Step: 651
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25700.pt
+[Episode 25800] Avg Reward: 13.01 | Policy Loss: -0.0575 | Value Loss: 8.6833 | Max Step: 504
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25800.pt
+[Episode 25900] Avg Reward: 14.82 | Policy Loss: -0.0379 | Value Loss: 9.3035 | Max Step: 574
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep25900.pt
+[Episode 26000] Avg Reward: 15.22 | Policy Loss: -0.0127 | Value Loss: 7.8414 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26000.pt
+[Episode 26100] Avg Reward: 17.93 | Policy Loss: -0.0745 | Value Loss: 10.6482 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26100.pt
+[Episode 26200] Avg Reward: 18.17 | Policy Loss: -0.0851 | Value Loss: 9.5494 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26200.pt
+[Episode 26300] Avg Reward: 12.48 | Policy Loss: 0.1351 | Value Loss: 9.1368 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26300.pt
+[Episode 26400] Avg Reward: 18.02 | Policy Loss: -0.1969 | Value Loss: 10.9073 | Max Step: 914
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26400.pt
+[Episode 26500] Avg Reward: 17.19 | Policy Loss: 0.0849 | Value Loss: 7.9003 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26500.pt
+[Episode 26600] Avg Reward: 13.60 | Policy Loss: -0.0593 | Value Loss: 6.3659 | Max Step: 738
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26600.pt
+[Episode 26700] Avg Reward: 19.29 | Policy Loss: -0.1305 | Value Loss: 9.0585 | Max Step: 861
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26700.pt
+[Episode 26800] Avg Reward: 18.26 | Policy Loss: 0.1387 | Value Loss: 9.6311 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26800.pt
+[Episode 26900] Avg Reward: 17.92 | Policy Loss: -0.0635 | Value Loss: 9.5380 | Max Step: 654
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep26900.pt
+[Episode 27000] Avg Reward: 11.31 | Policy Loss: 0.1375 | Value Loss: 9.6692 | Max Step: 430
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27000.pt
+[Episode 27100] Avg Reward: 17.52 | Policy Loss: -0.0166 | Value Loss: 10.7129 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27100.pt
+[Episode 27200] Avg Reward: 17.88 | Policy Loss: -0.2073 | Value Loss: 12.0069 | Max Step: 770
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27200.pt
+[Episode 27300] Avg Reward: 19.28 | Policy Loss: -0.1136 | Value Loss: 12.5450 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27300.pt
+[Episode 27400] Avg Reward: 16.30 | Policy Loss: -0.0182 | Value Loss: 8.9395 | Max Step: 651
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27400.pt
+[Episode 27500] Avg Reward: 19.79 | Policy Loss: -0.1733 | Value Loss: 9.1074 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27500.pt
+[Episode 27600] Avg Reward: 19.35 | Policy Loss: -0.0003 | Value Loss: 9.7602 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27600.pt
+[Episode 27700] Avg Reward: 19.36 | Policy Loss: -0.1147 | Value Loss: 9.9101 | Max Step: 577
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27700.pt
+[Episode 27800] Avg Reward: 21.67 | Policy Loss: 0.1057 | Value Loss: 9.6772 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27800.pt
+[Episode 27900] Avg Reward: 20.48 | Policy Loss: -0.0230 | Value Loss: 12.3654 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep27900.pt
+[Episode 28000] Avg Reward: 19.43 | Policy Loss: -0.1017 | Value Loss: 9.7425 | Max Step: 670
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28000.pt
+[Episode 28100] Avg Reward: 20.47 | Policy Loss: 0.0548 | Value Loss: 10.7403 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28100.pt
+[Episode 28200] Avg Reward: 23.83 | Policy Loss: -0.1577 | Value Loss: 11.1626 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28200.pt
+[Episode 28300] Avg Reward: 21.57 | Policy Loss: 0.0153 | Value Loss: 11.1794 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28300.pt
+[Episode 28400] Avg Reward: 23.69 | Policy Loss: -0.0510 | Value Loss: 9.0030 | Max Step: 764
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28400.pt
+[Episode 28500] Avg Reward: 20.03 | Policy Loss: 0.0289 | Value Loss: 11.4738 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28500.pt
+[Episode 28600] Avg Reward: 15.29 | Policy Loss: 0.0010 | Value Loss: 8.9106 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28600.pt
+[Episode 28700] Avg Reward: 18.90 | Policy Loss: -0.1396 | Value Loss: 8.8487 | Max Step: 651
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28700.pt
+[Episode 28800] Avg Reward: 16.87 | Policy Loss: -0.0076 | Value Loss: 10.6990 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28800.pt
+[Episode 28900] Avg Reward: 24.57 | Policy Loss: -0.1014 | Value Loss: 11.0826 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep28900.pt
+[Episode 29000] Avg Reward: 18.12 | Policy Loss: 0.0922 | Value Loss: 10.2472 | Max Step: 880
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29000.pt
+[Episode 29100] Avg Reward: 23.49 | Policy Loss: -0.1619 | Value Loss: 13.1183 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29100.pt
+[Episode 29200] Avg Reward: 22.82 | Policy Loss: 0.0639 | Value Loss: 10.9390 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29200.pt
+[Episode 29300] Avg Reward: 22.71 | Policy Loss: -0.1113 | Value Loss: 10.2765 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29300.pt
+[Episode 29400] Avg Reward: 24.54 | Policy Loss: -0.0710 | Value Loss: 11.8031 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29400.pt
+[Episode 29500] Avg Reward: 26.60 | Policy Loss: -0.0023 | Value Loss: 11.5635 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29500.pt
+[Episode 29600] Avg Reward: 24.36 | Policy Loss: 0.0555 | Value Loss: 12.8096 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29600.pt
+[Episode 29700] Avg Reward: 20.50 | Policy Loss: 0.1200 | Value Loss: 12.5840 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29700.pt
+[Episode 29800] Avg Reward: 18.24 | Policy Loss: -0.0550 | Value Loss: 12.8758 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29800.pt
+[Episode 29900] Avg Reward: 19.34 | Policy Loss: 0.0880 | Value Loss: 10.9465 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep29900.pt
+[Episode 30000] Avg Reward: 0.97 | Policy Loss: 0.0768 | Value Loss: 6.3237 | Max Step: 65
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30000.pt
+[Episode 30100] Avg Reward: 3.91 | Policy Loss: 0.0585 | Value Loss: 1.5283 | Max Step: 69
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30100.pt
+[Episode 30200] Avg Reward: 3.55 | Policy Loss: -0.0193 | Value Loss: 1.8333 | Max Step: 69
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30200.pt
+[Episode 30300] Avg Reward: 7.73 | Policy Loss: -0.1461 | Value Loss: 5.3318 | Max Step: 244
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30300.pt
+[Episode 30400] Avg Reward: 19.14 | Policy Loss: -0.1518 | Value Loss: 12.0171 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30400.pt
+[Episode 30500] Avg Reward: 12.24 | Policy Loss: 0.0974 | Value Loss: 7.6298 | Max Step: 348
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30500.pt
+[Episode 30600] Avg Reward: 13.60 | Policy Loss: -0.1292 | Value Loss: 6.8174 | Max Step: 464
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30600.pt
+[Episode 30700] Avg Reward: 15.05 | Policy Loss: -0.0537 | Value Loss: 7.0873 | Max Step: 502
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30700.pt
+[Episode 30800] Avg Reward: 10.55 | Policy Loss: 0.0627 | Value Loss: 7.1034 | Max Step: 461
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30800.pt
+[Episode 30900] Avg Reward: 13.49 | Policy Loss: -0.0264 | Value Loss: 10.7970 | Max Step: 634
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep30900.pt
+[Episode 31000] Avg Reward: 19.69 | Policy Loss: -0.1576 | Value Loss: 10.6457 | Max Step: 993
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31000.pt
+[Episode 31100] Avg Reward: 19.13 | Policy Loss: -0.1097 | Value Loss: 9.1278 | Max Step: 804
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31100.pt
+[Episode 31200] Avg Reward: 16.44 | Policy Loss: 0.0786 | Value Loss: 9.5686 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31200.pt
+[Episode 31300] Avg Reward: 19.60 | Policy Loss: -0.1369 | Value Loss: 10.4256 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31300.pt
+[Episode 31400] Avg Reward: 19.19 | Policy Loss: 0.0531 | Value Loss: 10.0002 | Max Step: 515
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31400.pt
+[Episode 31500] Avg Reward: 19.16 | Policy Loss: -0.0476 | Value Loss: 9.0568 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31500.pt
+[Episode 31600] Avg Reward: 17.62 | Policy Loss: -0.0171 | Value Loss: 11.1022 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31600.pt
+[Episode 31700] Avg Reward: 20.81 | Policy Loss: -0.0998 | Value Loss: 12.1095 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31700.pt
+[Episode 31800] Avg Reward: 17.06 | Policy Loss: 0.1239 | Value Loss: 8.6449 | Max Step: 574
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31800.pt
+[Episode 31900] Avg Reward: 20.87 | Policy Loss: -0.1524 | Value Loss: 11.4567 | Max Step: 577
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep31900.pt
+[Episode 32000] Avg Reward: 22.73 | Policy Loss: -0.0899 | Value Loss: 10.5069 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32000.pt
+[Episode 32100] Avg Reward: 24.31 | Policy Loss: -0.0602 | Value Loss: 10.7700 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32100.pt
+[Episode 32200] Avg Reward: 24.20 | Policy Loss: 0.0336 | Value Loss: 12.0670 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32200.pt
+[Episode 32300] Avg Reward: 24.42 | Policy Loss: -0.0574 | Value Loss: 10.3147 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32300.pt
+[Episode 32400] Avg Reward: 12.92 | Policy Loss: 0.3932 | Value Loss: 9.2489 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32400.pt
+[Episode 32500] Avg Reward: 3.03 | Policy Loss: 0.0158 | Value Loss: 2.8344 | Max Step: 205
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32500.pt
+[Episode 32600] Avg Reward: 3.74 | Policy Loss: 0.0045 | Value Loss: 0.9569 | Max Step: 64
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32600.pt
+[Episode 32700] Avg Reward: 6.06 | Policy Loss: -0.1440 | Value Loss: 2.6837 | Max Step: 321
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32700.pt
+[Episode 32800] Avg Reward: 18.42 | Policy Loss: -0.1209 | Value Loss: 11.4050 | Max Step: 699
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32800.pt
+[Episode 32900] Avg Reward: 19.10 | Policy Loss: 0.0660 | Value Loss: 9.7746 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep32900.pt
+[Episode 33000] Avg Reward: 24.76 | Policy Loss: -0.1358 | Value Loss: 13.1943 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33000.pt
+[Episode 33100] Avg Reward: 25.55 | Policy Loss: -0.1146 | Value Loss: 12.5937 | Max Step: 916
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33100.pt
+[Episode 33200] Avg Reward: 29.83 | Policy Loss: -0.0257 | Value Loss: 12.1302 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33200.pt
+[Episode 33300] Avg Reward: 28.40 | Policy Loss: -0.0842 | Value Loss: 11.3218 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33300.pt
+[Episode 33400] Avg Reward: 26.84 | Policy Loss: -0.0056 | Value Loss: 13.2839 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33400.pt
+[Episode 33500] Avg Reward: 23.96 | Policy Loss: 0.0153 | Value Loss: 11.3565 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33500.pt
+[Episode 33600] Avg Reward: 21.56 | Policy Loss: 0.0554 | Value Loss: 10.2653 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33600.pt
+[Episode 33700] Avg Reward: 33.12 | Policy Loss: -0.0979 | Value Loss: 13.0704 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33700.pt
+[Episode 33800] Avg Reward: 19.90 | Policy Loss: 0.2333 | Value Loss: 10.7378 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33800.pt
+[Episode 33900] Avg Reward: 23.21 | Policy Loss: -0.3133 | Value Loss: 10.6383 | Max Step: 774
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep33900.pt
+[Episode 34000] Avg Reward: 20.36 | Policy Loss: 0.0075 | Value Loss: 8.3811 | Max Step: 854
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34000.pt
+[Episode 34100] Avg Reward: 19.75 | Policy Loss: 0.1376 | Value Loss: 9.1849 | Max Step: 881
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34100.pt
+[Episode 34200] Avg Reward: 23.54 | Policy Loss: -0.1210 | Value Loss: 12.1308 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34200.pt
+[Episode 34300] Avg Reward: 20.38 | Policy Loss: 0.0334 | Value Loss: 9.6733 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34300.pt
+[Episode 34400] Avg Reward: 18.66 | Policy Loss: -0.0102 | Value Loss: 11.6893 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34400.pt
+[Episode 34500] Avg Reward: 16.11 | Policy Loss: 0.0004 | Value Loss: 9.4928 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34500.pt
+[Episode 34600] Avg Reward: 25.14 | Policy Loss: -0.2268 | Value Loss: 10.9212 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34600.pt
+[Episode 34700] Avg Reward: 21.27 | Policy Loss: 0.0247 | Value Loss: 10.5721 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34700.pt
+[Episode 34800] Avg Reward: 22.68 | Policy Loss: 0.0014 | Value Loss: 11.0051 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34800.pt
+[Episode 34900] Avg Reward: 22.12 | Policy Loss: -0.2257 | Value Loss: 9.4947 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep34900.pt
+[Episode 35000] Avg Reward: 21.91 | Policy Loss: 0.1302 | Value Loss: 9.7594 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35000.pt
+[Episode 35100] Avg Reward: 27.53 | Policy Loss: -0.0957 | Value Loss: 11.1245 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35100.pt
+[Episode 35200] Avg Reward: 24.06 | Policy Loss: 0.0062 | Value Loss: 10.6934 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35200.pt
+[Episode 35300] Avg Reward: 25.97 | Policy Loss: 0.1087 | Value Loss: 13.7252 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35300.pt
+[Episode 35400] Avg Reward: 28.02 | Policy Loss: -0.2380 | Value Loss: 11.6569 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35400.pt
+[Episode 35500] Avg Reward: 22.32 | Policy Loss: 0.0124 | Value Loss: 11.1140 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35500.pt
+[Episode 35600] Avg Reward: 16.14 | Policy Loss: 0.1890 | Value Loss: 7.2722 | Max Step: 577
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35600.pt
+[Episode 35700] Avg Reward: 20.95 | Policy Loss: -0.1571 | Value Loss: 8.8783 | Max Step: 881
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35700.pt
+[Episode 35800] Avg Reward: 20.10 | Policy Loss: -0.1688 | Value Loss: 9.3843 | Max Step: 689
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35800.pt
+[Episode 35900] Avg Reward: 17.85 | Policy Loss: 0.1344 | Value Loss: 7.3792 | Max Step: 804
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep35900.pt
+[Episode 36000] Avg Reward: 22.06 | Policy Loss: -0.1796 | Value Loss: 9.3118 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36000.pt
+[Episode 36100] Avg Reward: 21.22 | Policy Loss: 0.0581 | Value Loss: 10.0151 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36100.pt
+[Episode 36200] Avg Reward: 24.27 | Policy Loss: -0.1674 | Value Loss: 11.9681 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36200.pt
+[Episode 36300] Avg Reward: 28.08 | Policy Loss: -0.0342 | Value Loss: 10.1149 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36300.pt
+[Episode 36400] Avg Reward: 17.39 | Policy Loss: 0.2281 | Value Loss: 9.2750 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36400.pt
+[Episode 36500] Avg Reward: 15.81 | Policy Loss: -0.1275 | Value Loss: 6.8584 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36500.pt
+[Episode 36600] Avg Reward: 20.53 | Policy Loss: -0.0557 | Value Loss: 9.1997 | Max Step: 990
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36600.pt
+[Episode 36700] Avg Reward: 15.78 | Policy Loss: 0.0307 | Value Loss: 9.0104 | Max Step: 544
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36700.pt
+[Episode 36800] Avg Reward: 19.92 | Policy Loss: -0.1293 | Value Loss: 8.6741 | Max Step: 804
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36800.pt
+[Episode 36900] Avg Reward: 23.91 | Policy Loss: 0.0155 | Value Loss: 11.7768 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep36900.pt
+[Episode 37000] Avg Reward: 21.46 | Policy Loss: -0.0312 | Value Loss: 9.6546 | Max Step: 853
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37000.pt
+[Episode 37100] Avg Reward: 21.60 | Policy Loss: -0.0717 | Value Loss: 8.9081 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37100.pt
+[Episode 37200] Avg Reward: 18.78 | Policy Loss: -0.0079 | Value Loss: 7.4936 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37200.pt
+[Episode 37300] Avg Reward: 19.68 | Policy Loss: 0.0299 | Value Loss: 8.7825 | Max Step: 701
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37300.pt
+[Episode 37400] Avg Reward: 21.13 | Policy Loss: -0.0970 | Value Loss: 8.9691 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37400.pt
+[Episode 37500] Avg Reward: 18.75 | Policy Loss: 0.1082 | Value Loss: 8.1260 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37500.pt
+[Episode 37600] Avg Reward: 20.12 | Policy Loss: -0.1959 | Value Loss: 8.7605 | Max Step: 771
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37600.pt
+[Episode 37700] Avg Reward: 23.13 | Policy Loss: -0.0034 | Value Loss: 10.3309 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37700.pt
+[Episode 37800] Avg Reward: 22.71 | Policy Loss: 0.0351 | Value Loss: 9.5296 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37800.pt
+[Episode 37900] Avg Reward: 19.29 | Policy Loss: -0.0430 | Value Loss: 7.7797 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep37900.pt
+[Episode 38000] Avg Reward: 17.04 | Policy Loss: -0.0528 | Value Loss: 5.9395 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38000.pt
+[Episode 38100] Avg Reward: 19.81 | Policy Loss: -0.0283 | Value Loss: 8.4390 | Max Step: 880
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38100.pt
+[Episode 38200] Avg Reward: 21.62 | Policy Loss: 0.0029 | Value Loss: 7.8527 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38200.pt
+[Episode 38300] Avg Reward: 16.01 | Policy Loss: 0.0335 | Value Loss: 5.8527 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38300.pt
+[Episode 38400] Avg Reward: 25.78 | Policy Loss: -0.1149 | Value Loss: 11.6678 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38400.pt
+[Episode 38500] Avg Reward: 19.67 | Policy Loss: -0.0028 | Value Loss: 8.6698 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38500.pt
+[Episode 38600] Avg Reward: 26.99 | Policy Loss: -0.0410 | Value Loss: 11.0504 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38600.pt
+[Episode 38700] Avg Reward: 27.29 | Policy Loss: -0.0880 | Value Loss: 10.3862 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38700.pt
+[Episode 38800] Avg Reward: 26.33 | Policy Loss: 0.0874 | Value Loss: 12.5297 | Max Step: 921
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38800.pt
+[Episode 38900] Avg Reward: 25.40 | Policy Loss: -0.0549 | Value Loss: 11.9708 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep38900.pt
+[Episode 39000] Avg Reward: 31.57 | Policy Loss: -0.1085 | Value Loss: 11.4482 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39000.pt
+[Episode 39100] Avg Reward: 20.55 | Policy Loss: -0.0273 | Value Loss: 6.6104 | Max Step: 651
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39100.pt
+[Episode 39200] Avg Reward: 23.07 | Policy Loss: 0.0147 | Value Loss: 9.7096 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39200.pt
+[Episode 39300] Avg Reward: 27.31 | Policy Loss: 0.0317 | Value Loss: 11.0038 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39300.pt
+[Episode 39400] Avg Reward: 23.14 | Policy Loss: 0.0540 | Value Loss: 11.6198 | Max Step: 879
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39400.pt
+[Episode 39500] Avg Reward: 24.27 | Policy Loss: -0.0661 | Value Loss: 9.1695 | Max Step: 841
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39500.pt
+[Episode 39600] Avg Reward: 20.04 | Policy Loss: -0.0075 | Value Loss: 9.8676 | Max Step: 461
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39600.pt
+[Episode 39700] Avg Reward: 23.31 | Policy Loss: -0.1020 | Value Loss: 9.9758 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39700.pt
+[Episode 39800] Avg Reward: 23.98 | Policy Loss: 0.0954 | Value Loss: 8.9801 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39800.pt
+[Episode 39900] Avg Reward: 16.88 | Policy Loss: -0.0379 | Value Loss: 7.8428 | Max Step: 765
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep39900.pt
+[Episode 40000] Avg Reward: 21.69 | Policy Loss: -0.0568 | Value Loss: 8.3551 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40000.pt
+[Episode 40100] Avg Reward: 23.99 | Policy Loss: -0.0195 | Value Loss: 10.6110 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40100.pt
+[Episode 40200] Avg Reward: 22.45 | Policy Loss: -0.0558 | Value Loss: 11.0430 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40200.pt
+[Episode 40300] Avg Reward: 25.51 | Policy Loss: -0.0858 | Value Loss: 10.0872 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40300.pt
+[Episode 40400] Avg Reward: 24.43 | Policy Loss: 0.0035 | Value Loss: 10.9480 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40400.pt
+[Episode 40500] Avg Reward: 30.75 | Policy Loss: 0.0471 | Value Loss: 11.8544 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40500.pt
+[Episode 40600] Avg Reward: 26.41 | Policy Loss: -0.1225 | Value Loss: 11.5902 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40600.pt
+[Episode 40700] Avg Reward: 31.70 | Policy Loss: -0.0225 | Value Loss: 11.1942 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40700.pt
+[Episode 40800] Avg Reward: 21.25 | Policy Loss: 0.1155 | Value Loss: 9.8883 | Max Step: 820
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40800.pt
+[Episode 40900] Avg Reward: 23.05 | Policy Loss: -0.0230 | Value Loss: 11.4579 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep40900.pt
+[Episode 41000] Avg Reward: 23.86 | Policy Loss: -0.0034 | Value Loss: 11.0337 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41000.pt
+[Episode 41100] Avg Reward: 25.71 | Policy Loss: -0.1448 | Value Loss: 9.6105 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41100.pt
+[Episode 41200] Avg Reward: 18.43 | Policy Loss: 0.0482 | Value Loss: 10.2692 | Max Step: 687
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41200.pt
+[Episode 41300] Avg Reward: 24.92 | Policy Loss: -0.1153 | Value Loss: 12.5830 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41300.pt
+[Episode 41400] Avg Reward: 28.98 | Policy Loss: -0.0757 | Value Loss: 11.9686 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41400.pt
+[Episode 41500] Avg Reward: 23.49 | Policy Loss: 0.0616 | Value Loss: 10.9814 | Max Step: 764
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41500.pt
+[Episode 41600] Avg Reward: 25.36 | Policy Loss: -0.0736 | Value Loss: 9.5619 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41600.pt
+[Episode 41700] Avg Reward: 24.58 | Policy Loss: -0.0605 | Value Loss: 9.9698 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41700.pt
+[Episode 41800] Avg Reward: 30.32 | Policy Loss: 0.0599 | Value Loss: 11.8137 | Max Step: 969
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41800.pt
+[Episode 41900] Avg Reward: 26.11 | Policy Loss: -0.1037 | Value Loss: 8.5023 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep41900.pt
+[Episode 42000] Avg Reward: 24.45 | Policy Loss: 0.0175 | Value Loss: 9.2987 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42000.pt
+[Episode 42100] Avg Reward: 30.78 | Policy Loss: -0.1307 | Value Loss: 11.5789 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42100.pt
+[Episode 42200] Avg Reward: 32.16 | Policy Loss: -0.0217 | Value Loss: 11.6776 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42200.pt
+[Episode 42300] Avg Reward: 30.18 | Policy Loss: -0.0531 | Value Loss: 11.0471 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42300.pt
+[Episode 42400] Avg Reward: 25.93 | Policy Loss: 0.0440 | Value Loss: 11.8934 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42400.pt
+[Episode 42500] Avg Reward: 30.65 | Policy Loss: 0.0168 | Value Loss: 11.2479 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42500.pt
+[Episode 42600] Avg Reward: 31.84 | Policy Loss: -0.0679 | Value Loss: 11.4018 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42600.pt
+[Episode 42700] Avg Reward: 23.04 | Policy Loss: -0.0618 | Value Loss: 8.4044 | Max Step: 652
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42700.pt
+[Episode 42800] Avg Reward: 25.93 | Policy Loss: -0.0311 | Value Loss: 8.4010 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42800.pt
+[Episode 42900] Avg Reward: 27.53 | Policy Loss: -0.0453 | Value Loss: 10.3029 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep42900.pt
+[Episode 43000] Avg Reward: 26.35 | Policy Loss: 0.0602 | Value Loss: 12.0182 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43000.pt
+[Episode 43100] Avg Reward: 28.90 | Policy Loss: -0.0768 | Value Loss: 11.8794 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43100.pt
+[Episode 43200] Avg Reward: 32.86 | Policy Loss: -0.0178 | Value Loss: 10.8890 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43200.pt
+[Episode 43300] Avg Reward: 34.33 | Policy Loss: -0.1288 | Value Loss: 10.9882 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43300.pt
+[Episode 43400] Avg Reward: 31.73 | Policy Loss: 0.0622 | Value Loss: 12.3815 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43400.pt
+[Episode 43500] Avg Reward: 28.23 | Policy Loss: -0.2080 | Value Loss: 10.4220 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43500.pt
+[Episode 43600] Avg Reward: 27.67 | Policy Loss: 0.1523 | Value Loss: 9.9561 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43600.pt
+[Episode 43700] Avg Reward: 29.93 | Policy Loss: -0.1195 | Value Loss: 10.5898 | Max Step: 990
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43700.pt
+[Episode 43800] Avg Reward: 37.19 | Policy Loss: -0.0910 | Value Loss: 10.6427 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43800.pt
+[Episode 43900] Avg Reward: 31.09 | Policy Loss: 0.0640 | Value Loss: 11.4067 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep43900.pt
+[Episode 44000] Avg Reward: 28.78 | Policy Loss: -0.0434 | Value Loss: 10.4409 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44000.pt
+[Episode 44100] Avg Reward: 32.67 | Policy Loss: -0.1276 | Value Loss: 10.1408 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44100.pt
+[Episode 44200] Avg Reward: 27.01 | Policy Loss: 0.1003 | Value Loss: 10.8509 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44200.pt
+[Episode 44300] Avg Reward: 33.40 | Policy Loss: -0.1322 | Value Loss: 9.4582 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44300.pt
+[Episode 44400] Avg Reward: 32.77 | Policy Loss: 0.1183 | Value Loss: 11.6795 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44400.pt
+[Episode 44500] Avg Reward: 32.40 | Policy Loss: -0.1318 | Value Loss: 10.1062 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44500.pt
+[Episode 44600] Avg Reward: 25.23 | Policy Loss: -0.0970 | Value Loss: 9.0478 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44600.pt
+[Episode 44700] Avg Reward: 32.81 | Policy Loss: -0.0256 | Value Loss: 10.8035 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44700.pt
+[Episode 44800] Avg Reward: 26.32 | Policy Loss: -0.0251 | Value Loss: 9.7044 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44800.pt
+[Episode 44900] Avg Reward: 36.21 | Policy Loss: -0.1002 | Value Loss: 10.6486 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep44900.pt
+[Episode 45000] Avg Reward: 41.53 | Policy Loss: -0.0473 | Value Loss: 10.6412 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45000.pt
+[Episode 45100] Avg Reward: 34.15 | Policy Loss: 0.0835 | Value Loss: 12.2982 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45100.pt
+[Episode 45200] Avg Reward: 32.84 | Policy Loss: 0.0677 | Value Loss: 12.7722 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45200.pt
+[Episode 45300] Avg Reward: 37.37 | Policy Loss: -0.1316 | Value Loss: 12.7491 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45300.pt
+[Episode 45400] Avg Reward: 35.81 | Policy Loss: -0.0380 | Value Loss: 11.8521 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45400.pt
+[Episode 45500] Avg Reward: 41.38 | Policy Loss: -0.0010 | Value Loss: 10.8357 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45500.pt
+[Episode 45600] Avg Reward: 29.07 | Policy Loss: 0.1271 | Value Loss: 10.2670 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45600.pt
+[Episode 45700] Avg Reward: 29.42 | Policy Loss: -0.0501 | Value Loss: 13.6058 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45700.pt
+[Episode 45800] Avg Reward: 36.07 | Policy Loss: -0.2038 | Value Loss: 12.6430 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45800.pt
+[Episode 45900] Avg Reward: 33.26 | Policy Loss: 0.0415 | Value Loss: 11.4582 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep45900.pt
+[Episode 46000] Avg Reward: 33.73 | Policy Loss: -0.0463 | Value Loss: 12.0373 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46000.pt
+[Episode 46100] Avg Reward: 37.44 | Policy Loss: -0.0427 | Value Loss: 11.0155 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46100.pt
+[Episode 46200] Avg Reward: 32.63 | Policy Loss: -0.0540 | Value Loss: 11.1485 | Max Step: 990
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46200.pt
+[Episode 46300] Avg Reward: 31.74 | Policy Loss: 0.0373 | Value Loss: 11.6111 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46300.pt
+[Episode 46400] Avg Reward: 35.89 | Policy Loss: -0.1332 | Value Loss: 11.6294 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46400.pt
+[Episode 46500] Avg Reward: 33.23 | Policy Loss: -0.0052 | Value Loss: 11.1930 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46500.pt
+[Episode 46600] Avg Reward: 39.99 | Policy Loss: -0.0838 | Value Loss: 12.7870 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46600.pt
+[Episode 46700] Avg Reward: 38.15 | Policy Loss: -0.0042 | Value Loss: 10.9302 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46700.pt
+[Episode 46800] Avg Reward: 30.13 | Policy Loss: 0.0233 | Value Loss: 10.1773 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46800.pt
+[Episode 46900] Avg Reward: 29.56 | Policy Loss: 0.0468 | Value Loss: 11.0619 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep46900.pt
+[Episode 47000] Avg Reward: 34.31 | Policy Loss: 0.0031 | Value Loss: 11.8375 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47000.pt
+[Episode 47100] Avg Reward: 23.92 | Policy Loss: -0.0273 | Value Loss: 11.0018 | Max Step: 877
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47100.pt
+[Episode 47200] Avg Reward: 38.30 | Policy Loss: -0.0262 | Value Loss: 13.3916 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47200.pt
+[Episode 47300] Avg Reward: 34.62 | Policy Loss: -0.0772 | Value Loss: 10.8577 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47300.pt
+[Episode 47400] Avg Reward: 24.94 | Policy Loss: 0.0325 | Value Loss: 12.9513 | Max Step: 913
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47400.pt
+[Episode 47500] Avg Reward: 40.45 | Policy Loss: -0.2178 | Value Loss: 12.1455 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47500.pt
+[Episode 47600] Avg Reward: 31.27 | Policy Loss: -0.0109 | Value Loss: 10.9861 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47600.pt
+[Episode 47700] Avg Reward: 46.67 | Policy Loss: -0.1120 | Value Loss: 11.2981 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47700.pt
+[Episode 47800] Avg Reward: 34.94 | Policy Loss: 0.0077 | Value Loss: 11.0319 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47800.pt
+[Episode 47900] Avg Reward: 19.30 | Policy Loss: 0.7620 | Value Loss: 14.0683 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep47900.pt
+[Episode 48000] Avg Reward: 3.16 | Policy Loss: 0.0316 | Value Loss: 3.0193 | Max Step: 59
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48000.pt
+[Episode 48100] Avg Reward: 3.59 | Policy Loss: -0.0163 | Value Loss: 1.2713 | Max Step: 58
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48100.pt
+[Episode 48200] Avg Reward: 3.75 | Policy Loss: 0.0017 | Value Loss: 1.2422 | Max Step: 62
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48200.pt
+[Episode 48300] Avg Reward: 31.99 | Policy Loss: -0.3733 | Value Loss: 11.7442 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48300.pt
+[Episode 48400] Avg Reward: 33.66 | Policy Loss: 0.0009 | Value Loss: 10.4647 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48400.pt
+[Episode 48500] Avg Reward: 35.05 | Policy Loss: 0.0690 | Value Loss: 13.0263 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48500.pt
+[Episode 48600] Avg Reward: 28.57 | Policy Loss: -0.1828 | Value Loss: 11.6893 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48600.pt
+[Episode 48700] Avg Reward: 31.90 | Policy Loss: 0.0309 | Value Loss: 11.2201 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48700.pt
+[Episode 48800] Avg Reward: 22.11 | Policy Loss: -0.0018 | Value Loss: 11.3455 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48800.pt
+[Episode 48900] Avg Reward: 24.69 | Policy Loss: -0.1357 | Value Loss: 9.8947 | Max Step: 800
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep48900.pt
+[Episode 49000] Avg Reward: 40.33 | Policy Loss: -0.1886 | Value Loss: 10.4059 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49000.pt
+[Episode 49100] Avg Reward: 35.00 | Policy Loss: 0.1487 | Value Loss: 11.5035 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49100.pt
+[Episode 49200] Avg Reward: 43.54 | Policy Loss: -0.1117 | Value Loss: 12.4626 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49200.pt
+[Episode 49300] Avg Reward: 45.79 | Policy Loss: -0.1073 | Value Loss: 11.4488 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49300.pt
+[Episode 49400] Avg Reward: 48.19 | Policy Loss: 0.0256 | Value Loss: 12.7018 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49400.pt
+[Episode 49500] Avg Reward: 32.58 | Policy Loss: -0.0486 | Value Loss: 10.5200 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49500.pt
+[Episode 49600] Avg Reward: 52.16 | Policy Loss: -0.0928 | Value Loss: 13.5783 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49600.pt
+[Episode 49700] Avg Reward: 51.51 | Policy Loss: 0.0069 | Value Loss: 13.1855 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49700.pt
+[Episode 49800] Avg Reward: 32.74 | Policy Loss: 0.1296 | Value Loss: 13.3325 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49800.pt
+[Episode 49900] Avg Reward: 34.78 | Policy Loss: -0.0409 | Value Loss: 12.1452 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep49900.pt
+[Episode 50000] Avg Reward: 34.55 | Policy Loss: -0.0453 | Value Loss: 11.4890 | Max Step: 1000
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(normal)-lr1e-04-dis0.99-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep50000.pt

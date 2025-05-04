@@ -1,0 +1,6 @@
+  0%|                        | 0/10000 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_test.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^
+AttributeError: 'DDPG' object has no attribute 'learn'

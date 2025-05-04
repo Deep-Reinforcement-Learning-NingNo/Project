@@ -1,0 +1,42 @@
+{
+  "os": "Windows-10-10.0.26100-SP0",
+  "python": "CPython 3.11.0",
+  "startedAt": "2025-05-04T04:36:55.308180Z",
+  "program": "D:\\Fibo\\term3_2\\DRL\\Project\\Project\\flappy_PPO_Train.py",
+  "codePath": "flappy_PPO_Train.py",
+  "git": {
+    "remote": "https://github.com/Deep-Reinforcement-Learning-NingNo/Project.git",
+    "commit": "8ffee9064c7d228d8e51bb444019c372b282a955"
+  },
+  "email": "chanyapak.subs@mail.kmutt.ac.th",
+  "root": "D:\\Fibo\\term3_2\\DRL\\Project\\Project",
+  "host": "LAPTOP-B9T2A6DP",
+  "executable": "D:\\Fibo\\term3_2\\DRL\\Project\\Project\\.venv\\Scripts\\python.exe",
+  "codePathLocal": "flappy_PPO_Train.py",
+  "cpu_count": 14,
+  "cpu_count_logical": 20,
+  "gpu": "NVIDIA GeForce RTX 4060 Laptop GPU",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "512109121536",
+      "used": "314086707200"
+    }
+  },
+  "memory": {
+    "total": "68430127104"
+  },
+  "cpu": {
+    "count": 14,
+    "countLogical": 20
+  },
+  "gpu_nvidia": [
+    {
+      "name": "NVIDIA GeForce RTX 4060 Laptop GPU",
+      "memoryTotal": "8585740288",
+      "cudaCores": 3072,
+      "architecture": "Ada"
+    }
+  ],
+  "cudaVersion": "12.8"
+}

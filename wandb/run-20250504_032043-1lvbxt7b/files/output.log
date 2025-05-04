@@ -1,0 +1,63 @@
+  0%|▎                                                                                                                 | 31/10000 [00:06<44:11,  3.76it/s]
+Episode 0 | Reward: -9.30
+Episode 1 | Reward: -9.30
+Episode 2 | Reward: -9.30
+Episode 3 | Reward: -9.30
+Episode 4 | Reward: -9.30
+Episode 5 | Reward: -9.30
+Episode 6 | Reward: 3.90
+Episode 7 | Reward: 2.70
+Episode 8 | Reward: -9.30
+Episode 9 | Reward: -9.30
+Episode 10 | Reward: -9.30
+Episode 11 | Reward: -9.30
+Episode 12 | Reward: -9.30
+Episode 13 | Reward: -9.30
+Episode 14 | Reward: -9.30
+Episode 15 | Reward: -9.30
+Episode 16 | Reward: -9.30
+Episode 17 | Reward: -9.30
+Episode 18 | Reward: -9.30
+Episode 19 | Reward: -9.30
+Episode 20 | Reward: -9.30
+Episode 21 | Reward: -9.30
+Episode 22 | Reward: -9.30
+Episode 23 | Reward: -9.30
+Episode 24 | Reward: -9.30
+Episode 25 | Reward: -9.30
+Episode 26 | Reward: -9.30
+Episode 27 | Reward: -9.30
+Episode 28 | Reward: -9.30
+Episode 29 | Reward: -9.30
+Episode 30 | Reward: -9.30
+Episode 31 | Reward: -9.30
+Episode 32 | Reward: -9.30
+Episode 33 | Reward: -9.30
+Episode 34 | Reward: -9.30
+Episode 35 | Reward: -9.30
+Episode 36 | Reward: -9.30
+Episode 37 | Reward: -9.30
+Episode 38 | Reward: -9.30
+Episode 39 | Reward: -9.30
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_DDPG_Train.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 166, in learn
+    result = self.update()
+             ^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 141, in update
+    torch.nn.utils.clip_grad_norm_(self.actor.parameters(), max_norm=1.0)
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\utils\clip_grad.py", line 38, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\utils\clip_grad.py", line 219, in clip_grad_norm_
+    total_norm = _get_total_norm(grads, norm_type, error_if_nonfinite, foreach)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\utils\clip_grad.py", line 38, in _no_grad_wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\utils\clip_grad.py", line 91, in _get_total_norm
+    norms.extend(torch._foreach_norm(device_tensors, norm_type))
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

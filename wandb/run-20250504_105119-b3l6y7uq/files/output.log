@@ -1,0 +1,201 @@
+ 16%|█████████████████▉                                                                                              | 1597/10000 [00:59<05:21, 26.18it/s]
+[Episode 100] Avg Reward: -0.00 | Policy Loss: 0.4180 | Value Loss: 8.0139
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep100.pt
+[Episode 200] Avg Reward: 4.18 | Policy Loss: 0.0039 | Value Loss: 1.1771
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep200.pt
+[Episode 300] Avg Reward: 4.16 | Policy Loss: -0.0024 | Value Loss: 0.6515
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep300.pt
+[Episode 400] Avg Reward: 4.76 | Policy Loss: -0.0095 | Value Loss: 1.1147
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep400.pt
+[Episode 500] Avg Reward: 4.63 | Policy Loss: -0.0073 | Value Loss: 0.8977
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep500.pt
+[Episode 600] Avg Reward: 3.82 | Policy Loss: -0.0039 | Value Loss: 0.1604
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep600.pt
+[Episode 700] Avg Reward: 3.62 | Policy Loss: -0.0031 | Value Loss: 0.5601
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep700.pt
+[Episode 800] Avg Reward: 4.43 | Policy Loss: 0.0004 | Value Loss: 0.8981
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep800.pt
+[Episode 900] Avg Reward: 5.15 | Policy Loss: -0.0201 | Value Loss: 1.6992
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep900.pt
+[Episode 1000] Avg Reward: 4.99 | Policy Loss: -0.0708 | Value Loss: 1.1897
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1000.pt
+[Episode 1100] Avg Reward: 4.09 | Policy Loss: 0.0915 | Value Loss: 1.0733
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1100.pt
+[Episode 1200] Avg Reward: 3.77 | Policy Loss: -0.0630 | Value Loss: 2.7417
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1200.pt
+[Episode 1300] Avg Reward: 4.28 | Policy Loss: -0.0336 | Value Loss: 1.5329
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1300.pt
+[Episode 1400] Avg Reward: 3.81 | Policy Loss: 0.0416 | Value Loss: 3.5412
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1400.pt
+[Episode 1500] Avg Reward: 4.36 | Policy Loss: -0.0293 | Value Loss: 1.6340
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1500.pt
+[Episode 1600] Avg Reward: 5.28 | Policy Loss: -0.0705 | Value Loss: 1.8066
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1600.pt
+[Episode 1700] Avg Reward: 5.49 | Policy Loss: 0.0220 | Value Loss: 2.2294
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1700.pt
+[Episode 1800] Avg Reward: 5.16 | Policy Loss: -0.0389 | Value Loss: 1.5315
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1800.pt
+[Episode 1900] Avg Reward: 7.12 | Policy Loss: -0.1437 | Value Loss: 3.3158
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1900.pt
+[Episode 2000] Avg Reward: 5.72 | Policy Loss: 0.1385 | Value Loss: 2.4494
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2000.pt
+[Episode 2100] Avg Reward: 6.25 | Policy Loss: -0.0664 | Value Loss: 3.1374
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2100.pt
+[Episode 2200] Avg Reward: 6.21 | Policy Loss: -0.0597 | Value Loss: 2.6986
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2200.pt
+[Episode 2300] Avg Reward: 6.58 | Policy Loss: 0.0020 | Value Loss: 2.9828
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2300.pt
+[Episode 2400] Avg Reward: 7.84 | Policy Loss: -0.1433 | Value Loss: 4.1874
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2400.pt
+[Episode 2500] Avg Reward: 7.12 | Policy Loss: 0.0609 | Value Loss: 3.6401
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2500.pt
+[Episode 2600] Avg Reward: 7.31 | Policy Loss: 0.0488 | Value Loss: 4.2856
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2600.pt
+[Episode 2700] Avg Reward: 8.31 | Policy Loss: -0.1962 | Value Loss: 4.7281
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2700.pt
+[Episode 2800] Avg Reward: 8.16 | Policy Loss: 0.0226 | Value Loss: 4.0242
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2800.pt
+[Episode 2900] Avg Reward: 8.32 | Policy Loss: -0.0604 | Value Loss: 5.1368
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep2900.pt
+[Episode 3000] Avg Reward: 9.62 | Policy Loss: -0.0577 | Value Loss: 6.5016
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3000.pt
+[Episode 3100] Avg Reward: 7.42 | Policy Loss: 0.0374 | Value Loss: 4.1107
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3100.pt
+[Episode 3200] Avg Reward: 6.16 | Policy Loss: 0.0942 | Value Loss: 3.0796
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3200.pt
+[Episode 3300] Avg Reward: 3.23 | Policy Loss: -0.0103 | Value Loss: 1.6732
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3300.pt
+[Episode 3400] Avg Reward: 3.06 | Policy Loss: 0.0304 | Value Loss: 2.5432
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3400.pt
+[Episode 3500] Avg Reward: 3.43 | Policy Loss: -0.0225 | Value Loss: 1.2518
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3500.pt
+[Episode 3600] Avg Reward: 3.61 | Policy Loss: -0.0078 | Value Loss: 0.7828
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3600.pt
+[Episode 3700] Avg Reward: 3.38 | Policy Loss: 0.0052 | Value Loss: 1.5288
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3700.pt
+[Episode 3800] Avg Reward: 3.53 | Policy Loss: -0.0126 | Value Loss: 0.9283
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3800.pt
+[Episode 3900] Avg Reward: 3.47 | Policy Loss: 0.0019 | Value Loss: 1.1310
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep3900.pt
+[Episode 4000] Avg Reward: 3.48 | Policy Loss: -0.0139 | Value Loss: 1.0230
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4000.pt
+[Episode 4100] Avg Reward: 3.46 | Policy Loss: 0.0055 | Value Loss: 1.0189
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4100.pt
+[Episode 4200] Avg Reward: 3.37 | Policy Loss: 0.0147 | Value Loss: 1.7237
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4200.pt
+[Episode 4300] Avg Reward: 3.56 | Policy Loss: -0.0293 | Value Loss: 0.7462
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4300.pt
+[Episode 4400] Avg Reward: 3.13 | Policy Loss: -0.0025 | Value Loss: 2.4817
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4400.pt
+[Episode 4500] Avg Reward: 3.41 | Policy Loss: -0.0048 | Value Loss: 1.3934
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4500.pt
+[Episode 4600] Avg Reward: 3.28 | Policy Loss: 0.0087 | Value Loss: 1.5965
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4600.pt
+[Episode 4700] Avg Reward: 3.31 | Policy Loss: 0.0039 | Value Loss: 1.5998
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4700.pt
+[Episode 4800] Avg Reward: 3.08 | Policy Loss: -0.0205 | Value Loss: 2.5053
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4800.pt
+[Episode 4900] Avg Reward: 3.48 | Policy Loss: 0.0169 | Value Loss: 1.2094
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep4900.pt
+[Episode 5000] Avg Reward: 3.37 | Policy Loss: -0.0513 | Value Loss: 1.5604
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5000.pt
+[Episode 5100] Avg Reward: 3.58 | Policy Loss: 0.0061 | Value Loss: 0.7261
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5100.pt
+[Episode 5200] Avg Reward: 3.67 | Policy Loss: -0.0214 | Value Loss: 0.4879
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5200.pt
+[Episode 5300] Avg Reward: 3.41 | Policy Loss: 0.0082 | Value Loss: 1.2441
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5300.pt
+[Episode 5400] Avg Reward: 3.32 | Policy Loss: -0.0025 | Value Loss: 1.9584
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5400.pt
+[Episode 5500] Avg Reward: 3.68 | Policy Loss: -0.0215 | Value Loss: 0.3496
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5500.pt
+[Episode 5600] Avg Reward: 3.29 | Policy Loss: 0.0114 | Value Loss: 1.7322
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5600.pt
+[Episode 5700] Avg Reward: 3.32 | Policy Loss: -0.0053 | Value Loss: 1.2460
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5700.pt
+[Episode 5800] Avg Reward: 3.56 | Policy Loss: -0.0118 | Value Loss: 0.9114
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5800.pt
+[Episode 5900] Avg Reward: 3.38 | Policy Loss: 0.0158 | Value Loss: 1.5158
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep5900.pt
+[Episode 6000] Avg Reward: 3.28 | Policy Loss: -0.0451 | Value Loss: 1.2260
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6000.pt
+[Episode 6100] Avg Reward: 4.11 | Policy Loss: 0.0010 | Value Loss: 1.4654
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6100.pt
+[Episode 6200] Avg Reward: 5.43 | Policy Loss: -0.0640 | Value Loss: 1.5933
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6200.pt
+[Episode 6300] Avg Reward: 6.87 | Policy Loss: -0.0459 | Value Loss: 3.6993
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6300.pt
+[Episode 6400] Avg Reward: 8.10 | Policy Loss: -0.1111 | Value Loss: 4.3139
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6400.pt
+[Episode 6500] Avg Reward: 6.98 | Policy Loss: 0.0189 | Value Loss: 3.9398
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6500.pt
+[Episode 6600] Avg Reward: 7.48 | Policy Loss: -0.0977 | Value Loss: 3.8687
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6600.pt
+[Episode 6700] Avg Reward: 8.01 | Policy Loss: 0.0154 | Value Loss: 4.5755
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6700.pt
+[Episode 6800] Avg Reward: 7.58 | Policy Loss: 0.0369 | Value Loss: 4.3199
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6800.pt
+[Episode 6900] Avg Reward: 8.16 | Policy Loss: -0.0817 | Value Loss: 5.3006
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep6900.pt
+[Episode 7000] Avg Reward: 8.55 | Policy Loss: -0.0727 | Value Loss: 5.1631
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7000.pt
+[Episode 7100] Avg Reward: 8.90 | Policy Loss: -0.1005 | Value Loss: 5.7752
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7100.pt
+[Episode 7200] Avg Reward: 8.78 | Policy Loss: -0.0438 | Value Loss: 5.0065
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7200.pt
+[Episode 7300] Avg Reward: 9.41 | Policy Loss: 0.0153 | Value Loss: 5.8604
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7300.pt
+[Episode 7400] Avg Reward: 8.90 | Policy Loss: -0.0005 | Value Loss: 5.0720
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7400.pt
+[Episode 7500] Avg Reward: 8.19 | Policy Loss: -0.0103 | Value Loss: 5.0402
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7500.pt
+[Episode 7600] Avg Reward: 8.19 | Policy Loss: -0.0498 | Value Loss: 5.2209
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7600.pt
+[Episode 7700] Avg Reward: 6.75 | Policy Loss: 0.0780 | Value Loss: 2.5107
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7700.pt
+[Episode 7800] Avg Reward: 3.38 | Policy Loss: 0.0245 | Value Loss: 1.6146
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7800.pt
+[Episode 7900] Avg Reward: 3.40 | Policy Loss: 0.0078 | Value Loss: 1.3404
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep7900.pt
+[Episode 8000] Avg Reward: 3.19 | Policy Loss: -0.0113 | Value Loss: 1.4857
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8000.pt
+[Episode 8100] Avg Reward: 3.52 | Policy Loss: -0.0327 | Value Loss: 1.1973
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8100.pt
+[Episode 8200] Avg Reward: 3.41 | Policy Loss: -0.0105 | Value Loss: 1.3493
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8200.pt
+[Episode 8300] Avg Reward: 3.61 | Policy Loss: -0.0019 | Value Loss: 0.6490
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8300.pt
+[Episode 8400] Avg Reward: 3.55 | Policy Loss: -0.0079 | Value Loss: 0.6913
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8400.pt
+[Episode 8500] Avg Reward: 3.55 | Policy Loss: 0.0104 | Value Loss: 0.9024
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8500.pt
+[Episode 8600] Avg Reward: 3.26 | Policy Loss: 0.0086 | Value Loss: 1.3442
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8600.pt
+[Episode 8700] Avg Reward: 3.52 | Policy Loss: -0.0490 | Value Loss: 0.7674
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8700.pt
+[Episode 8800] Avg Reward: 3.48 | Policy Loss: -0.0075 | Value Loss: 0.7414
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8800.pt
+[Episode 8900] Avg Reward: 3.59 | Policy Loss: -0.0231 | Value Loss: 0.5112
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep8900.pt
+[Episode 9000] Avg Reward: 3.50 | Policy Loss: -0.0009 | Value Loss: 0.7895
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9000.pt
+[Episode 9100] Avg Reward: 3.65 | Policy Loss: -0.0025 | Value Loss: 0.3818
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9100.pt
+[Episode 9200] Avg Reward: 3.72 | Policy Loss: -0.0144 | Value Loss: 0.2187
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9200.pt
+[Episode 9300] Avg Reward: 3.60 | Policy Loss: 0.0005 | Value Loss: 0.4581
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9300.pt
+[Episode 9400] Avg Reward: 3.49 | Policy Loss: -0.0276 | Value Loss: 0.9715
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9400.pt
+[Episode 9500] Avg Reward: 3.58 | Policy Loss: 0.0082 | Value Loss: 0.4302
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9500.pt
+[Episode 9600] Avg Reward: 3.40 | Policy Loss: 0.0051 | Value Loss: 0.8359
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9600.pt
+[Episode 9700] Avg Reward: 3.52 | Policy Loss: -0.0395 | Value Loss: 0.9357
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9700.pt
+[Episode 9800] Avg Reward: 3.47 | Policy Loss: 0.0071 | Value Loss: 1.0506
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9800.pt
+[Episode 9900] Avg Reward: 3.67 | Policy Loss: -0.0224 | Value Loss: 0.5369
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep9900.pt
+[Episode 10000] Avg Reward: 3.59 | Policy Loss: -0.0098 | Value Loss: 0.4687
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep10000.pt

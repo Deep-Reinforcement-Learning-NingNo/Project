@@ -1,0 +1,65 @@
+ 16%|█████████████████▉                                                                                              | 1599/10000 [00:56<05:02, 27.79it/s]
+[Episode 100] Avg Reward: -7.69 | Policy Loss: -0.0069 | Value Loss: 7.1300
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep100.pt
+[Episode 200] Avg Reward: -7.42 | Policy Loss: -0.0069 | Value Loss: 1.3748
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep200.pt
+[Episode 300] Avg Reward: -7.57 | Policy Loss: -0.0069 | Value Loss: 0.9294
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep300.pt
+[Episode 400] Avg Reward: -7.69 | Policy Loss: -0.0069 | Value Loss: 0.6360
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep400.pt
+[Episode 500] Avg Reward: -7.53 | Policy Loss: -0.0069 | Value Loss: 0.6479
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep500.pt
+[Episode 600] Avg Reward: -7.68 | Policy Loss: -0.0069 | Value Loss: 0.6517
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep600.pt
+[Episode 700] Avg Reward: -7.37 | Policy Loss: -0.0069 | Value Loss: 0.6792
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep700.pt
+[Episode 800] Avg Reward: -7.48 | Policy Loss: -0.0069 | Value Loss: 0.7012
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep800.pt
+[Episode 900] Avg Reward: -7.57 | Policy Loss: -0.0069 | Value Loss: 0.6191
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep900.pt
+[Episode 1000] Avg Reward: -7.61 | Policy Loss: -0.0069 | Value Loss: 0.5889
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1000.pt
+[Episode 1100] Avg Reward: -7.52 | Policy Loss: -0.0069 | Value Loss: 0.7666
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1100.pt
+[Episode 1200] Avg Reward: -7.54 | Policy Loss: -0.0069 | Value Loss: 0.6242
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1200.pt
+[Episode 1300] Avg Reward: -7.45 | Policy Loss: -0.0069 | Value Loss: 0.6539
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1300.pt
+[Episode 1400] Avg Reward: -7.35 | Policy Loss: -0.0069 | Value Loss: 0.7440
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1400.pt
+[Episode 1500] Avg Reward: -7.54 | Policy Loss: -0.0069 | Value Loss: 0.5795
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1500.pt
+[Episode 1600] Avg Reward: -7.43 | Policy Loss: -0.0069 | Value Loss: 0.6424
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1600.pt
+[Episode 1700] Avg Reward: -7.48 | Policy Loss: -0.0069 | Value Loss: 0.7185
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1700.pt
+[Episode 1800] Avg Reward: -7.55 | Policy Loss: -0.0069 | Value Loss: 0.4822
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1800.pt
+[Episode 1900] Avg Reward: -7.69 | Policy Loss: -0.0069 | Value Loss: 0.4788
+[INFO] Saved PPO policy checkpoint at ./saved_models_ppo_flappy\ppo_policy_ep1900.pt
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_PPO_Train.py", line 83, in <module>
+    episode_reward, policy_loss, value_loss = agent.learn(
+                                              ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 142, in learn
+    returns = torch.FloatTensor(self.compute_returns(rewards, dones)).unsqueeze(1).to(self.device)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 127, in update_policy
+    self.value_optimizer.step()
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\optim\optimizer.py", line 485, in wrapper
+    out = func(*args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\optim\optimizer.py", line 79, in _use_grad
+    ret = func(self, *args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\optim\adam.py", line 246, in step
+    adam(
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\optim\optimizer.py", line 147, in maybe_fallback
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\optim\adam.py", line 933, in adam
+    func(
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\optim\adam.py", line 456, in _single_tensor_adam
+    exp_avg_sq.mul_(beta2).addcmul_(grad, grad, value=1 - beta2)
+    ^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt

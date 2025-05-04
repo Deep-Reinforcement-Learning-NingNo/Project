@@ -1,0 +1,52 @@
+  0%|▎                                                                                                               | 25/10000 [00:30<3:22:39,  1.22s/it]
+Episode 0 | Reward: -9.30
+Episode 1 | Reward: 3.90
+Episode 2 | Reward: 2.00
+Episode 3 | Reward: 2.00
+Episode 4 | Reward: 2.00
+Episode 5 | Reward: 2.00
+Episode 6 | Reward: 2.00
+Episode 7 | Reward: 2.00
+Episode 8 | Reward: 2.00
+Episode 9 | Reward: 2.00
+Episode 10 | Reward: 2.00
+Episode 11 | Reward: 2.00
+Episode 12 | Reward: 2.00
+Episode 13 | Reward: 2.00
+Episode 14 | Reward: 2.00
+Episode 15 | Reward: 2.00
+Episode 16 | Reward: 2.00
+Episode 17 | Reward: 2.00
+Episode 18 | Reward: 2.00
+Episode 19 | Reward: 2.00
+Episode 20 | Reward: 2.00
+Episode 21 | Reward: 2.00
+Episode 22 | Reward: 2.00
+Episode 23 | Reward: 2.00
+Episode 24 | Reward: 2.00
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_test.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 161, in learn
+    next_state, reward, terminated, truncated, _ = env.step(action)
+                                                   ^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 262, in step
+    obs, reward_private_zone = self._get_observation()
+                               ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 489, in _get_observation_features
+    pipes = sorted(pipes, key=lambda x: x[0])
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 489, in <lambda>
+    pipes = sorted(pipes, key=lambda x: x[0])
+
+KeyboardInterrupt

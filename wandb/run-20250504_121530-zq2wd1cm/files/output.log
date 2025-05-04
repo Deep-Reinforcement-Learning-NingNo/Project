@@ -1,0 +1,102 @@
+  0%|                                                                                                                                                         | 0/50000 [00:00<?, ?it/s]D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\gymnasium\utils\passive_env_checker.py:158: UserWarning: [33mWARN: The obs returned by the `step()` method is not within the observation space.[0m
+  logger.warn(f"{pre} is not within the observation space.")
+  3%|████▌                                                                                                                                         | 1598/50000 [01:50<56:35, 14.26it/s]
+[Episode 100] Avg Reward: -2.85 | Policy Loss: 0.4474 | Value Loss: 4.3235 | Max Step: 86
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep100.pt
+[Episode 200] Avg Reward: 0.68 | Policy Loss: 0.0221 | Value Loss: 0.3416 | Max Step: 61
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep200.pt
+[Episode 300] Avg Reward: 0.75 | Policy Loss: 0.0090 | Value Loss: 0.1197 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep300.pt
+[Episode 400] Avg Reward: 0.77 | Policy Loss: 0.0061 | Value Loss: 0.0968 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep400.pt
+[Episode 500] Avg Reward: 0.80 | Policy Loss: 0.0035 | Value Loss: 0.0502 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep500.pt
+[Episode 600] Avg Reward: 0.80 | Policy Loss: 0.0036 | Value Loss: 0.0372 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep600.pt
+[Episode 700] Avg Reward: 0.80 | Policy Loss: 0.0043 | Value Loss: 0.0304 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep700.pt
+[Episode 800] Avg Reward: 0.78 | Policy Loss: 0.0075 | Value Loss: 0.0406 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep800.pt
+[Episode 900] Avg Reward: 0.80 | Policy Loss: 0.0025 | Value Loss: 0.0257 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep900.pt
+[Episode 1000] Avg Reward: 0.73 | Policy Loss: 0.0186 | Value Loss: 0.1114 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1000.pt
+[Episode 1100] Avg Reward: 0.80 | Policy Loss: 0.0005 | Value Loss: 0.0237 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1100.pt
+[Episode 1200] Avg Reward: 0.80 | Policy Loss: 0.0036 | Value Loss: 0.0184 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1200.pt
+[Episode 1300] Avg Reward: 0.77 | Policy Loss: 0.0088 | Value Loss: 0.0583 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1300.pt
+[Episode 1400] Avg Reward: 0.80 | Policy Loss: 0.0019 | Value Loss: 0.0166 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1400.pt
+[Episode 1500] Avg Reward: 0.80 | Policy Loss: 0.0017 | Value Loss: 0.0158 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1500.pt
+[Episode 1600] Avg Reward: 0.80 | Policy Loss: 0.0023 | Value Loss: 0.0139 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1600.pt
+[Episode 1700] Avg Reward: 0.80 | Policy Loss: 0.0022 | Value Loss: 0.0126 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1700.pt
+[Episode 1800] Avg Reward: 0.80 | Policy Loss: 0.0015 | Value Loss: 0.0108 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1800.pt
+[Episode 1900] Avg Reward: 0.78 | Policy Loss: 0.0059 | Value Loss: 0.0284 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep1900.pt
+[Episode 2000] Avg Reward: 0.80 | Policy Loss: 0.0011 | Value Loss: 0.0114 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2000.pt
+[Episode 2100] Avg Reward: 0.80 | Policy Loss: 0.0015 | Value Loss: 0.0076 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2100.pt
+[Episode 2200] Avg Reward: -0.42 | Policy Loss: 0.0223 | Value Loss: 0.9751 | Max Step: 86
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2200.pt
+[Episode 2300] Avg Reward: 0.63 | Policy Loss: -0.0102 | Value Loss: 0.1803 | Max Step: 52
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2300.pt
+[Episode 2400] Avg Reward: 0.75 | Policy Loss: 0.0053 | Value Loss: 0.0791 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2400.pt
+[Episode 2500] Avg Reward: -1.92 | Policy Loss: 0.0338 | Value Loss: 0.7791 | Max Step: 56
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2500.pt
+[Episode 2600] Avg Reward: -0.11 | Policy Loss: -0.0304 | Value Loss: 1.1992 | Max Step: 86
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2600.pt
+[Episode 2700] Avg Reward: 0.71 | Policy Loss: -0.0033 | Value Loss: 0.1316 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2700.pt
+[Episode 2800] Avg Reward: 0.80 | Policy Loss: 0.0022 | Value Loss: 0.0150 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2800.pt
+[Episode 2900] Avg Reward: 0.80 | Policy Loss: 0.0003 | Value Loss: 0.0115 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep2900.pt
+[Episode 3000] Avg Reward: 0.80 | Policy Loss: 0.0018 | Value Loss: 0.0109 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3000.pt
+[Episode 3100] Avg Reward: 0.78 | Policy Loss: 0.0027 | Value Loss: 0.0150 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3100.pt
+[Episode 3200] Avg Reward: 0.78 | Policy Loss: 0.0026 | Value Loss: 0.0173 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3200.pt
+[Episode 3300] Avg Reward: 0.80 | Policy Loss: 0.0007 | Value Loss: 0.0083 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3300.pt
+[Episode 3400] Avg Reward: 0.80 | Policy Loss: -0.0002 | Value Loss: 0.0067 | Max Step: 31
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3400.pt
+[Episode 3500] Avg Reward: 0.77 | Policy Loss: 0.0048 | Value Loss: 0.0521 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3500.pt
+[Episode 3600] Avg Reward: 0.74 | Policy Loss: 0.0037 | Value Loss: 0.0346 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3600.pt
+[Episode 3700] Avg Reward: 0.46 | Policy Loss: 0.0218 | Value Loss: 0.4071 | Max Step: 60
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3700.pt
+[Episode 3800] Avg Reward: 0.73 | Policy Loss: 0.0031 | Value Loss: 0.0653 | Max Step: 50
+[INFO] Saved PPO policy checkpoint at ./saved_models/ppo(lidar)-lr1e-04-bs32-clip0.1-ep6-n_eps50000\ppo_policy_ep3800.pt
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_PPO_Train.py", line 100, in <module>
+    total_policy_loss = 0
+
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 153, in learn
+    policy_loss, value_loss = self.update_policy(states, actions, old_log_probs, returns)
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 108, in update_policy
+    probs = self.policy(states)
+            ^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 17, in forward
+    x = self.relu(self.fc1(x))
+                  ^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\torch\nn\modules\module.py", line 1747, in _wrapped_call_impl
+    def _wrapped_call_impl(self, *args, **kwargs):
+
+KeyboardInterrupt

@@ -1,0 +1,25 @@
+  0%|                                                                                                                 | 7/10000 [00:13<5:23:40,  1.94s/it]
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_PPO_Train.py", line 83, in <module>
+    episode_reward, policy_loss, value_loss = agent.learn(
+                                              ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 134, in learn
+    states, actions, log_probs, rewards, dones, episode_reward = self.collect_trajectory(env, max_steps)
+                                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\PPO.py", line 77, in collect_trajectory
+    next_state, reward, terminated, truncated, _ = env.step(action)
+                                                   ^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 260, in step
+    self.render()
+  File "D:\Fibo\term3_2\DRL\Project\Project\.venv\Lib\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 407, in render
+    self._fps_clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt

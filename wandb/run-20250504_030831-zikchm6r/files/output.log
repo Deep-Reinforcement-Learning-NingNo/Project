@@ -1,0 +1,86 @@
+  0%|▎                                                                                                                 | 31/10000 [00:06<42:35,  3.90it/s]
+Episode 0 | Reward: 2.00
+Episode 1 | Reward: 3.90
+Episode 2 | Reward: 3.90
+Episode 3 | Reward: 3.90
+Episode 4 | Reward: 3.90
+Episode 5 | Reward: 3.40
+Episode 6 | Reward: 3.90
+Episode 7 | Reward: -9.30
+Episode 8 | Reward: -9.30
+Episode 9 | Reward: -9.30
+Episode 10 | Reward: -9.30
+Episode 11 | Reward: -9.30
+Episode 12 | Reward: -9.30
+Episode 13 | Reward: -9.30
+Episode 14 | Reward: -9.30
+Episode 15 | Reward: -9.30
+Episode 16 | Reward: -9.30
+Episode 17 | Reward: -9.30
+Episode 18 | Reward: -9.30
+Episode 19 | Reward: -9.30
+Episode 20 | Reward: -9.30
+Episode 21 | Reward: -9.30
+Episode 22 | Reward: -9.30
+Episode 23 | Reward: -9.30
+Episode 24 | Reward: -9.30
+Episode 25 | Reward: -9.30
+Episode 26 | Reward: -9.30
+Episode 27 | Reward: -9.30
+Episode 28 | Reward: -9.30
+Episode 29 | Reward: -9.30
+Episode 30 | Reward: -9.30
+Episode 31 | Reward: -9.30
+Episode 32 | Reward: -9.30
+Episode 33 | Reward: -9.30
+Episode 34 | Reward: -9.30
+Episode 35 | Reward: -9.30
+Episode 36 | Reward: -9.30
+Episode 37 | Reward: -9.30
+Episode 38 | Reward: -9.30
+Episode 39 | Reward: -9.30
+Episode 40 | Reward: -9.30
+Episode 41 | Reward: -9.30
+Episode 42 | Reward: -9.30
+Episode 43 | Reward: -9.30
+Episode 44 | Reward: -9.30
+Episode 45 | Reward: -9.30
+Episode 46 | Reward: -9.30
+Episode 47 | Reward: -9.30
+Episode 48 | Reward: -9.30
+Episode 49 | Reward: -9.30
+Episode 50 | Reward: -9.30
+Episode 51 | Reward: -9.30
+Episode 52 | Reward: -9.30
+Episode 53 | Reward: -9.30
+Episode 54 | Reward: -9.30
+Episode 55 | Reward: -9.30
+Episode 56 | Reward: -9.30
+Episode 57 | Reward: -9.30
+Episode 58 | Reward: -9.30
+Episode 59 | Reward: -9.30
+Episode 60 | Reward: -9.30
+Episode 61 | Reward: -9.30
+Episode 62 | Reward: -9.30
+Episode 63 | Reward: -9.30
+Episode 64 | Reward: -9.30
+Episode 65 | Reward: -9.30
+Episode 66 | Reward: -9.30
+Episode 67 | Reward: -9.30
+Episode 68 | Reward: -9.30
+Episode 69 | Reward: -9.30
+Episode 70 | Reward: -9.30
+Episode 71 | Reward: -9.30
+Episode 72 | Reward: -9.30
+Episode 73 | Reward: -9.30
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_test.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 166, in learn
+    result = self.update()
+             ^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 147, in update
+    return actor_loss.item(), critic_loss.item()
+           ^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
