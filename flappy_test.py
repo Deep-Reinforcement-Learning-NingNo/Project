@@ -4,28 +4,46 @@ import torch
 import os
 from tqdm import tqdm
 from RL_Algorithm.Function_based.DDPG import DDPG  # <<<<<< DDPG agent ที่เราเขียนไว้แล้ว
+import argparse
 
+parser = argparse.ArgumentParser()
+parser.add_argument("--headless", action="store_true", help="Run without rendering")
+args = parser.parse_args()
 # --- Set up environment ---
-env = gym.make("FlappyBird-v0", render_mode="human", use_lidar=False)
+render_mode = None if args.headless else "human"
+env = gym.make("FlappyBird-v0", render_mode=render_mode, use_lidar=False)
 
+num_of_action = 1
+action_range = [-1.0, 1.0]  
+n_observations = 12
+learning_rate = 0.001 #ทดลองปรับ
+hidden_dim = 256  #ทดลองปรับ
+tau = 0.005 
+buffer_size = 5000 
+batch_size = 64 #ทดลองปรับ
+discount_factor = 0.99 #ทดลองปรับ
+# noise_scale_init = 0.2 #ทดลองปรับ
+# noise_decay  = 0.5 #ทดลองปรับ 
+n_episodes = 10000
+max_steps_per_episode = 1000
 # --- Set up DDPG agent ---
 agent = DDPG(
-    n_observations=12,  # From your obs size
-    n_actions=1,
-    hidden_dim=256,
-    action_range=[-1.0, 1.0],
-    learning_rate=1e-4,
-    tau=0.005,
-    discount_factor=0.99,
-    buffer_size=50000,
-    batch_size=64,
+    n_observations=n_observations,  # From your obs size
+    n_actions=num_of_action,
+    hidden_dim=hidden_dim,
+    action_range=action_range,
+    learning_rate=learning_rate,
+    tau=tau,
+    discount_factor=discount_factor,
+    buffer_size=buffer_size,
+    batch_size=batch_size ,
 )
 
 # --- Hyperparameters ---
-n_episodes = 1000
-max_steps = 1000
+n_episodes = 10000
+max_steps = 10000
 start_noise = 0.2
-noise_decay = 0.995
+noise_decay = 0.5
 min_noise = 0.01
 save_interval = 100
 save_path = "./saved_models_ddpg_flappy"
