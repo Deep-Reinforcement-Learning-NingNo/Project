@@ -9,24 +9,21 @@ import wandb
 import random
 import numpy as np
 
-from RL_Algorithm.Function_based.PPO import PPO 
+from RL_Algorithm.Function_based.PPO_MAMBA import DynaPPO
 
 def set_seed(seed=42):
     random.seed(seed)
     np.random.seed(seed)
     torch.manual_seed(seed)
-    torch.cuda.manual_seed_all(seed)  # for multi-GPU
+    torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.deterministic = True
     torch.backends.cudnn.benchmark = False
 
 seed = 42
-
-# --- Parse args ---
 parser = argparse.ArgumentParser()
 parser.add_argument("--headless", action="store_true", help="Run without rendering")
 args = parser.parse_args()
 
-# --- Environment setup ---
 set_seed(seed)
 
 lidar_flag = 1
@@ -36,15 +33,9 @@ env.reset(seed=seed)
 env.action_space.seed(seed)
 env.observation_space.seed(seed)
 
-# --- Hyperparameters ---
-
 num_of_action = 2
+n_observations = 180 if lidar_flag else 12
 
-if(lidar_flag == 1):
-    n_observations =  180 # lidar
-else:
-    n_observations =  12 # 
-    
 learning_rate = 1e-4
 hidden_dim = 256
 discount_factor = 0.99
@@ -54,14 +45,10 @@ n_episodes = 50000
 max_steps_per_episode = 1000
 save_interval = 100
 
-if(lidar_flag == 1):
-    save_path = f"./saved_models_real/ppo(lidar)-lr{learning_rate:.0e}-dis{discount_factor}-clip{clip_epsilon}-ep{epochs}-n_eps{n_episodes}"
-else:
-    save_path = f"./saved_models_real/ppo(normal)-lr{learning_rate:.0e}-dis{discount_factor}-clip{clip_epsilon}-ep{epochs}-n_eps{n_episodes}"
+save_path = f"./saved_models_real/dynappo({'lidar' if lidar_flag else 'normal'})-lr{learning_rate:.0e}-dis{discount_factor}-clip{clip_epsilon}-ep{epochs}-n_eps{n_episodes}"
 os.makedirs(save_path, exist_ok=True)
 
-# --- Init PPO agent ---
-agent = PPO(
+agent = DynaPPO(
     n_observations=n_observations,
     n_actions=num_of_action,
     hidden_dim=hidden_dim,
@@ -70,17 +57,13 @@ agent = PPO(
     clip_epsilon=clip_epsilon,
     epochs=epochs,
 )
-if(lidar_flag == 1):
-    wandb_name = f"PPO(lidar)-lr{learning_rate:.0e}-dis{discount_factor}-clip{clip_epsilon}-ep{epochs}-n_eps{n_episodes}"
-else:
-    wandb_name = f"PPO(normal)-lr{learning_rate:.0e}-dis{discount_factor}-clip{clip_epsilon}-ep{epochs}-n_eps{n_episodes}"
-# --- Init WandB ---
 
+wandb_name = f"DynaPPO({'lidar' if lidar_flag else 'normal'})-lr{learning_rate:.0e}-dis{discount_factor}-clip{clip_epsilon}-ep{epochs}-n_eps{n_episodes}"
 wandb.init(
     project="flappy-bird-rl-real",
     name=wandb_name,
     config={
-        "algorithm": "PPO",
+        "algorithm": "Dyna-PPO",
         "n_observations": n_observations,
         "n_actions": num_of_action,
         "hidden_dim": hidden_dim,
@@ -91,14 +74,12 @@ wandb.init(
     }
 )
 
-# Temporary accumulators
 total_reward = 0
 total_policy_loss = 0
 total_value_loss = 0
 total_step = 0
 max_step = 0
 
-# --- Training Loop ---
 for episode in tqdm(range(n_episodes)):
     episode_reward, policy_loss, value_loss, step_count = agent.learn(
         env=env,
