@@ -1,0 +1,1 @@
+{"avg_reward":34.54599999999994,"_timestamp":1.7463453225915556e+09,"reward":3.8999999999999986,"value_loss":7.929233551025391,"step_count":50,"_runtime":9243.1477497,"max_step":1000,"_wandb":{"runtime":9243},"_step":50499,"policy_loss":2.4732120037078857,"avg_max_step":297.89,"avg_policy_loss":-0.04530139942653477,"avg_value_loss":11.489010437726975,"episode":50000}

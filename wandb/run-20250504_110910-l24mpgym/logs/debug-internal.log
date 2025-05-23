@@ -1,0 +1,16 @@
+{"time":"2025-05-04T11:09:10.8117702+07:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"D:\\Fibo\\term3_2\\DRL\\Project\\Project\\wandb\\run-20250504_110910-l24mpgym\\logs\\debug-core.log"}
+{"time":"2025-05-04T11:09:11.329787+07:00","level":"INFO","msg":"created new stream","id":"l24mpgym"}
+{"time":"2025-05-04T11:09:11.329787+07:00","level":"INFO","msg":"stream: started","id":"l24mpgym"}
+{"time":"2025-05-04T11:09:11.329787+07:00","level":"INFO","msg":"writer: Do: started","stream_id":"l24mpgym"}
+{"time":"2025-05-04T11:09:11.3300911+07:00","level":"INFO","msg":"sender: started","stream_id":"l24mpgym"}
+{"time":"2025-05-04T11:09:11.3300911+07:00","level":"INFO","msg":"handler: started","stream_id":"l24mpgym"}
+{"time":"2025-05-04T11:09:11.7039696+07:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-04T11:20:37.3771541+07:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-04T11:20:37.3771541+07:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-04T11:20:38.3779951+07:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.3422903,"progress":"15.8KB/15.8KB"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.3422903,"progress":"312B/312B"},{"desc":"uploading config.yaml","runtime_seconds":0.0252967,"progress":"744B/744B"}],"total_operations":3}}
+{"time":"2025-05-04T11:20:38.7899802+07:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-04T11:20:39.3128665+07:00","level":"INFO","msg":"stream: closing","id":"l24mpgym"}
+{"time":"2025-05-04T11:20:39.3128665+07:00","level":"INFO","msg":"handler: closed","stream_id":"l24mpgym"}
+{"time":"2025-05-04T11:20:39.3128665+07:00","level":"INFO","msg":"writer: Close: closed","stream_id":"l24mpgym"}
+{"time":"2025-05-04T11:20:39.3128665+07:00","level":"INFO","msg":"sender: closed","stream_id":"l24mpgym"}
+{"time":"2025-05-04T11:20:39.3128665+07:00","level":"INFO","msg":"stream: closed","id":"l24mpgym"}

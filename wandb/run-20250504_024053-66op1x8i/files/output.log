@@ -1,0 +1,37 @@
+  0%|▏                                                                                                               | 15/10000 [00:27<5:05:10,  1.83s/it]
+Episode 0 | Reward: -6.90
+Episode 1 | Reward: -6.30
+Episode 2 | Reward: -9.30
+Episode 3 | Reward: -9.30
+Episode 4 | Reward: -9.30
+Episode 5 | Reward: -9.30
+Episode 6 | Reward: -9.30
+Episode 7 | Reward: -9.30
+Episode 8 | Reward: -9.30
+Episode 9 | Reward: -9.30
+Episode 10 | Reward: -9.30
+Episode 11 | Reward: -9.30
+Episode 12 | Reward: -9.30
+Episode 13 | Reward: -9.30
+Episode 14 | Reward: -9.30
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_test.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 158, in learn
+    next_state, reward, terminated, truncated, info = env.step(action)
+                                                      ^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\gymnasium\wrappers\common.py", line 393, in step
+    return super().step(action)
+           ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\gymnasium\core.py", line 327, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\gymnasium\wrappers\common.py", line 285, in step
+    return self.env.step(action)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 260, in step
+    self.render()
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\flappy_bird_gymnasium\envs\flappy_bird_env.py", line 407, in render
+    self._fps_clock.tick(self.metadata["render_fps"])
+KeyboardInterrupt

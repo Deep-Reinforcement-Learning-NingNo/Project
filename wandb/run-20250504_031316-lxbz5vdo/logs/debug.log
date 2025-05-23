@@ -1,0 +1,148 @@
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_setup.py:_flush():67] Current SDK version is 0.19.8
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_setup.py:_flush():67] Configure stats pid to 22588
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_setup.py:_flush():67] Loading settings from C:\Users\chanyapak\.config\wandb\settings
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_setup.py:_flush():67] Loading settings from D:\Fibo\term3_2\DRL\Project\Project\wandb\settings
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_setup.py:_flush():67] Loading settings from environment variables
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_init.py:setup_run_log_directory():647] Logging user logs to D:\Fibo\term3_2\DRL\Project\Project\wandb\run-20250504_031316-lxbz5vdo\logs\debug.log
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_init.py:setup_run_log_directory():648] Logging internal logs to D:\Fibo\term3_2\DRL\Project\Project\wandb\run-20250504_031316-lxbz5vdo\logs\debug-internal.log
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_init.py:init():761] calling init triggers
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_init.py:init():766] wandb.init called with sweep_config: {}
+config: {'algorithm': 'PPO', 'n_observations': 12, 'n_actions': 2, 'hidden_dim': 256, 'learning_rate': 0.0003, 'gamma': 0.99, 'clip_epsilon': 0.2, 'epochs': 4, 'batch_size': 64, '_wandb': {}}
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_init.py:init():784] starting backend
+2025-05-04 03:13:16,163 INFO    MainThread:22588 [wandb_init.py:init():788] sending inform_init request
+2025-05-04 03:13:16,191 INFO    MainThread:22588 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn, using: spawn
+2025-05-04 03:13:16,191 INFO    MainThread:22588 [wandb_init.py:init():798] backend started and connected
+2025-05-04 03:13:16,191 INFO    MainThread:22588 [wandb_init.py:init():891] updated telemetry
+2025-05-04 03:13:16,217 INFO    MainThread:22588 [wandb_init.py:init():915] communicating run to backend with 90.0 second timeout
+2025-05-04 03:13:47,852 INFO    Thread-8 (wrapped_target):22588 [retry.py:__call__():175] Retry attempt failed:
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\connection.py", line 464, in getresponse
+    httplib_response = super().getresponse()
+                       ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\http\client.py", line 1428, in getresponse
+    response.begin()
+  File "C:\Program Files\Python312\Lib\http\client.py", line 331, in begin
+    version, status, reason = self._read_status()
+                              ^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\http\client.py", line 292, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\socket.py", line 720, in readinto
+    return self._sock.recv_into(b)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1251, in recv_into
+    return self.read(nbytes, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\ssl.py", line 1103, in read
+    return self._sslobj.read(len, buffer)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TimeoutError: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 667, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 843, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\util\retry.py", line 474, in increment
+    raise reraise(type(error), error, _stacktrace)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\util\util.py", line 39, in reraise
+    raise value
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 789, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\urllib3\connectionpool.py", line 369, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\retry.py", line 134, in __call__
+    result = self._call_fn(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\internal\internal_api.py", line 398, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\vendor\gql-0.2.0\wandb_gql\client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\gql_request.py", line 58, in execute
+    request = self.session.post(self.url, **post_args)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\requests\adapters.py", line 713, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=20)
+2025-05-04 03:14:27,976 WARNING MsgRouterThr:22588 [router.py:message_loop():63] message_loop has been closed
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 208, in _read_packet_bytes
+    data = self._sock.recv(self._bufsize)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router_sock.py", line 27, in _read_message
+    return self._sock_client.read_server_response(timeout=1)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 235, in read_server_response
+    data = self._read_packet_bytes(timeout=timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\sock_client.py", line 212, in _read_packet_bytes
+    raise SockClientClosedError from e
+wandb.sdk.lib.sock_client.SockClientClosedError
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router.py", line 56, in message_loop
+    msg = self._read_message()
+          ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\interface\router_sock.py", line 29, in _read_message
+    raise MessageRouterClosedError from e
+wandb.sdk.interface.router.MessageRouterClosedError
+2025-05-04 03:14:27,989 INFO    MsgRouterThr:22588 [mailbox.py:close():129] Closing mailbox, abandoning 1 handles.
+2025-05-04 03:14:27,991 WARNING MainThread:22588 [wandb_init.py:init():1472] interrupted
+Traceback (most recent call last):
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 1468, in init
+    return wi.init(run_settings, run_config)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\wandb_init.py", line 941, in init
+    result = wait_with_progress(
+             ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 24, in wait_with_progress
+    return wait_all_with_progress(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\mailbox\wait_with_progress.py", line 87, in wait_all_with_progress
+    return asyncio_compat.run(progress_loop_with_timeout)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\wandb\sdk\lib\asyncio_compat.py", line 30, in run
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\Program Files\Python312\Lib\concurrent\futures\_base.py", line 451, in result
+    self._condition.wait(timeout)
+  File "C:\Program Files\Python312\Lib\threading.py", line 355, in wait
+    waiter.acquire()
+KeyboardInterrupt

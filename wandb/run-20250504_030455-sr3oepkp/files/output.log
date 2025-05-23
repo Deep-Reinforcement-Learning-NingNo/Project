@@ -1,0 +1,27 @@
+  0%|                                                                                                                   | 6/10000 [00:00<11:01, 15.10it/s]
+Episode 0 | Reward: -8.70
+Episode 1 | Reward: -6.90
+Episode 2 | Reward: -0.90
+Episode 3 | Reward: -7.50
+Episode 4 | Reward: 3.30
+Episode 5 | Reward: -3.30
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_test.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 165, in learn
+    result = self.update()
+             ^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 128, in update
+    q_val = self.critic(states, actions)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1751, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\torch\nn\modules\module.py", line 1762, in _call_impl
+    return forward_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 51, in forward
+    x = torch.cat([state, action], dim=-1)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+RuntimeError: Tensors must have same number of dimensions: got 2 and 3

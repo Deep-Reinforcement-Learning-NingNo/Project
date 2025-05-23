@@ -1,0 +1,58 @@
+  0%|▎                                                                                                                 | 31/10000 [00:08<45:05,  3.69it/s]
+Episode 0 | Reward: -9.30
+Episode 1 | Reward: 3.90
+Episode 2 | Reward: -8.10
+Episode 3 | Reward: -9.30
+Episode 4 | Reward: -9.30
+Episode 5 | Reward: -9.30
+Episode 6 | Reward: -9.30
+Episode 7 | Reward: -9.30
+Episode 8 | Reward: -9.30
+Episode 9 | Reward: -9.30
+Episode 10 | Reward: -9.30
+Episode 11 | Reward: -9.30
+Episode 12 | Reward: -9.30
+Episode 13 | Reward: -9.30
+Episode 14 | Reward: -9.30
+Episode 15 | Reward: -9.30
+Episode 16 | Reward: -9.30
+Episode 17 | Reward: -9.30
+Episode 18 | Reward: -9.30
+Episode 19 | Reward: -9.30
+Episode 20 | Reward: -9.30
+Episode 21 | Reward: -9.30
+Episode 22 | Reward: -9.30
+Episode 23 | Reward: -9.30
+Episode 24 | Reward: -9.30
+Episode 25 | Reward: -9.30
+Episode 26 | Reward: -9.30
+Episode 27 | Reward: -9.30
+Episode 28 | Reward: -9.30
+Episode 29 | Reward: -9.30
+Episode 30 | Reward: -9.30
+Episode 31 | Reward: -9.30
+Episode 32 | Reward: -9.30
+Episode 33 | Reward: -9.30
+Episode 34 | Reward: -9.30
+Episode 35 | Reward: -9.30
+Episode 36 | Reward: -9.30
+Episode 37 | Reward: -9.30
+Episode 38 | Reward: -9.30
+Episode 39 | Reward: -9.30
+Traceback (most recent call last):
+  File "D:\Fibo\term3_2\DRL\Project\Project\flappy_test.py", line 74, in <module>
+    episode_reward,a_loss, c_loss = agent.learn(
+                                    ^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 166, in learn
+    result = self.update()
+             ^^^^^^^^^^^^^
+  File "D:\Fibo\term3_2\DRL\Project\Project\RL_Algorithm\Function_based\DDPG.py", line 140, in update
+    actor_loss.backward()
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\torch\_tensor.py", line 648, in backward
+    torch.autograd.backward(
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\torch\autograd\__init__.py", line 353, in backward
+    _engine_run_backward(
+  File "C:\Users\chanyapak\AppData\Roaming\Python\Python312\site-packages\torch\autograd\graph.py", line 824, in _engine_run_backward
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyboardInterrupt
